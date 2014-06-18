@@ -22,6 +22,6 @@ app.get('/', function(req, res){
 });
 
 
-
-console.log("Listening on Port 3000");
-app.listen(3000);
+var port = Number(process.env.PORT || 3000);
+console.log("Listening on Port" + port);
+app.listen(port);
