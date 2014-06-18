@@ -6,6 +6,13 @@ var app = express();
 
 var parser = new xml2js.Parser();
 
+app.use(function (req, res, next) {
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+        res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+        next();
+    }
+);
+
 app.get('/', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
     function (error, response, body) {
