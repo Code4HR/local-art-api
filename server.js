@@ -15,6 +15,7 @@ app.get('/', function(req, res){
         console.log('Done');
         var converted = JSON.stringify(result, undefined, 2);
         console.log(converted);
+        res.send(converted);
         });
       }
     });
@@ -22,5 +23,5 @@ app.get('/', function(req, res){
 
 
 
-
+console.log("Listening on Port 3000");
 app.listen(3000);
