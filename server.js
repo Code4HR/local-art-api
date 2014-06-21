@@ -11,19 +11,8 @@ var parser = new xml2js.Parser();
 app.use(cors());
 
 app.get('/', function(req, res){
-  request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
-    function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-        //console.log(body); // Print the google web page.
-        parser.parseString(body, function (err, result) {
-        //var converted = JSON.stringify(result, undefined, 2);
-        //console.log(converted);
-        res.set('Content-Type', 'application/json');
-        res.send(result);
-        });
-      }
-    });
-});
+  res.redirect(301, '/exhibits');
+ });
 
 app.get('/pretty', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
