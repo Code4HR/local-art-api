@@ -61,6 +61,26 @@ app.get('/exhibits', function(req, res){
     });
 });
 
+app.get('/exhibits/:id', function(req, res){
+  //parm id
+  var id = req.params.id;
+  request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
+    function (error, response, body) {
+      if (!error && response.statusCode == 200) {
+          var obj;
+          parser.parseString(body, function (err, result) {
+          console.log(result.parks.parkz);
+          obj = result.parks.parkz[id].$;
+          res.set('Content-Type', 'application/json');
+          res.send(obj);
+        });
+      }
+      else {
+        res.send(404,"Not found");
+      }
+    });
+});
+
 
 var port = Number(process.env.PORT || 3000);
 console.log("Listening on Port " + port);
