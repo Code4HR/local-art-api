@@ -26,6 +26,9 @@ app.get('/pretty', function(req, res){
         res.send( "<pre>" + converted + "</pre>");
         });
       }
+      else {
+        res.send(404,"Not found");
+      }
     });
 });
 
@@ -51,6 +54,9 @@ app.get('/exhibits', function(req, res){
           res.set('Content-Type', 'application/json');
           res.send(obj);
         });
+      }
+      else {
+        res.send(404,"Not found");
       }
     });
 });
