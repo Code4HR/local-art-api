@@ -42,9 +42,13 @@ app.get('/pretty', function(req, res){
 
 
 //exhibits
-/* Query Strings Match
-
-
+/* Query Strings to search for ...
+    id: DS.attr('number'),
+    title: DS.attr('string'),
+    location: DS.attr('string'),
+    artists: DS.attr('string'),
+    latitude: DS.attr('number'),
+    longitude: DS.attr('number'),
 */
 app.get('/exhibits', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
