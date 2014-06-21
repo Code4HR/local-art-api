@@ -16,11 +16,10 @@ app.get('/', function(req, res){
       if (!error && response.statusCode == 200) {
         //console.log(body); // Print the google web page.
         parser.parseString(body, function (err, result) {
-        console.log('Done');
-        var converted = JSON.stringify(result, undefined, 2);
-        console.log(converted);
+        //var converted = JSON.stringify(result, undefined, 2);
+        //console.log(converted);
         res.set('Content-Type', 'application/json');
-        res.send(converted);
+        res.send(result);
         });
       }
     });
@@ -32,7 +31,6 @@ app.get('/pretty', function(req, res){
       if (!error && response.statusCode == 200) {
         //console.log(body); // Print the google web page.
         parser.parseString(body, function (err, result) {
-        console.log('Done');
         var converted = JSON.stringify(result, undefined, 2);
         console.log(converted);
         res.set('Content-Type', 'application/json');
@@ -42,15 +40,20 @@ app.get('/pretty', function(req, res){
     });
 });
 
-app.get('/exhibits/:exhibit', function(req, res){
+
+//exhibits
+/* Query Strings Match
+
+
+*/
+app.get('/exhibits', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
     function (error, response, body) {
       if (!error && response.statusCode == 200) {
-        var obj = {};
+        var obj = [];
         parser.parseString(body, function (err, result) {
-        var converted = JSON.stringify(result, undefined, 2);
-        console.log(converted);
-        _.each(converted.parks.parkz, function (data) {
+        //var converted = JSON.stringify(result, undefined, 2);
+        _.each(result.parks.parkz, function (data) {
           obj.push(data.$);
         });
           res.set('Content-Type', 'application/json');
