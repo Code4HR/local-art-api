@@ -59,5 +59,5 @@ app.get('/exhibits/:exhibit', function(req, res){
 
 
 var port = Number(process.env.PORT || 3000);
-console.log("Listening on Port" + port);
+console.log("Listening on Port " + port);
 app.listen(port);
