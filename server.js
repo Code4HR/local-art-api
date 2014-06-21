@@ -42,7 +42,7 @@ app.get('/pretty', function(req, res){
     latitude: DS.attr('number'),
     longitude: DS.attr('number'),
 */
-app.get('/exhibits', function(req, res){
+app.get('/exhibit', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
     function (error, response, body) {
       if (!error && response.statusCode == 200) {
@@ -61,7 +61,7 @@ app.get('/exhibits', function(req, res){
     });
 });
 
-app.get('/exhibits/:id', function(req, res){
+app.get('/exhibit/:id', function(req, res){
   //parm id
   var id = req.params.id;
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
