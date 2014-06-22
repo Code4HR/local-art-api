@@ -9,18 +9,13 @@ var app = express();
 var parser = new xml2js.Parser();
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/art');
-// var Cat = mongoose.model('Cat',{
-//    name: String
-// });
-//
-// var kitty = new Cat({ name: 'Zildjian' });
-//
-// kitty.save(function (err) {
-//   if (err) // ...
-//   console.log('cool');
-// });
 
+var uristring =
+process.env.MONGOLAB_URI ||
+process.env.MONGOHQ_URL ||
+'mongodb://localhost/art';
+
+mongoose.connect(uristring);
 
 var Art = mongoose.model('Art',{
   title: String,
