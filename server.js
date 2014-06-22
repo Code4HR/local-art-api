@@ -7,8 +7,12 @@ var cors = require('cors');
 var app = express();
 
 var parser = new xml2js.Parser();
-
+var mongoose = require('mongoose');
 app.use(cors());
+
+
+var Art = require('./model/exhibit.js');
+
 
 app.get('/', function(req, res){
   res.redirect(301, '/exhibits');
@@ -80,7 +84,6 @@ app.get('/exhibit/:id', function(req, res){
       }
     });
 });
-
 
 var port = Number(process.env.PORT || 3000);
 console.log("Listening on Port " + port);
