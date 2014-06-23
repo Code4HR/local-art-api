@@ -15,7 +15,7 @@ var Art = require('./model/exhibit.js');
 
 
 app.get('/', function(req, res){
-  res.redirect(301, '/exhibits');
+  res.redirect(301, '/exhibit');
  });
 
 app.get('/pretty', function(req, res){
