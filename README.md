@@ -10,4 +10,4 @@ http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml
 LICENSE 
 ---
 
-MIT 
+APACHE 
