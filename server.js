@@ -7,8 +7,12 @@ var cors = require('cors');
 var app = express();
 
 var parser = new xml2js.Parser();
-
+var mongoose = require('mongoose');
 app.use(cors());
+
+
+var Art = require('./model/exhibit.js');
+
 
 app.get('/', function(req, res){
   res.redirect(301, '/exhibits');
@@ -42,7 +46,7 @@ app.get('/pretty', function(req, res){
     latitude: DS.attr('number'),
     longitude: DS.attr('number'),
 */
-app.get('/exhibits', function(req, res){
+app.get('/exhibit', function(req, res){
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
     function (error, response, body) {
       if (!error && response.statusCode == 200) {
@@ -61,7 +65,7 @@ app.get('/exhibits', function(req, res){
     });
 });
 
-app.get('/exhibits/:id', function(req, res){
+app.get('/exhibit/:id', function(req, res){
   //parm id
   var id = req.params.id;
   request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
@@ -80,7 +84,6 @@ app.get('/exhibits/:id', function(req, res){
       }
     });
 });
-
 
 var port = Number(process.env.PORT || 3000);
 console.log("Listening on Port " + port);
