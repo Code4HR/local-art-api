@@ -85,6 +85,6 @@ app.get('/exhibits/:id', function(req, res){
     });
 });
 
-var port = Number(process.env.PORT || 3000);
+var port = Number(process.env.PORT || 5555);
 console.log("Listening on Port " + port);
 app.listen(port);
