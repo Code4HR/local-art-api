@@ -18,7 +18,7 @@ process.env.MONGOHQ_URL ||
 mongoose.connect(uristring);
 
 var Art = mongoose.model('Art',{
-  title: String,
+  title: { type: String, unique: true},
   location: String,
   artist: String,
   loc: String,
