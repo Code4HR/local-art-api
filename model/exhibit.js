@@ -49,7 +49,7 @@ var Art = mongoose.model('Art',{
           //console.log(exhibit);
           exhibit.save(function (err) {
             if (err) // ...
-              console.log('cool');
+              console.log(err);
         });
        });
       });
@@ -81,7 +81,7 @@ var Art = mongoose.model('Art',{
           //console.log(exhibit);
           exhibit.save(function (err) {
             if (err) // ...
-              console.log('cool');
+              console.log(err);
         });
        });
       });
