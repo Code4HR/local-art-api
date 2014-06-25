@@ -5,7 +5,7 @@ a proxy for Norfolk Public Art collection hosted by the City of Norfolk and pars
 
 data sources
 =======
-* [Downtown] (http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml)
+* [Downtown] (http://wwwnorfolkva.gov/cultural_affairs/public_art_downtown.xml)
 * [Botanical Gardens] (http://www.norfolkva.gov/cultural_affairs/public_art_botanical_garden.xml)
 
 installation
@@ -18,14 +18,14 @@ npm start
 ```
 
 import data
----
+===========
 
 ````bash
 mongoimport --collection exhibits --file data/exhibits.json --jsonArray
 ````
 
 
-LICENSE
----
+license
+=======
 
-APACHE
+[Apache 2.0] (https://www.apache.org/licenses/LICENSE-2.0)
