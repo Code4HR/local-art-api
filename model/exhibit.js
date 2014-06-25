@@ -33,44 +33,14 @@ process.env.MONGOHQ_URL ||
 
 mongoose.connect(uristring);
 
-var Art = mongoose.model('Art',{
-  title: String,
-  location: String,
-  artist: String,
-  loc: String,
-  link: String,
-  img: String,
-  art: String,
-  geo: {type: [Number], index: '2d'},
+var Exhibit = mongoose.model('Exhibit', {
+    "id": { type: Number, unique: true },
+    "title": String,
+    "longitude": Number,
+    "latitude": Number,
+    "location": String,
+    "artists": String,
+    "url": String,
+    "imageurl": String,
+    "fullimage": String
 });
-
-(function(){request('http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml',
-  function (error, response, body) {
-    if (!error && response.statusCode == 200) {
-      var obj = [];
-      parser.parseString(body, function (err, result) {
-        _.each(result.parks.parkz, function (data) {
-            obj.push(data.$);
-            console.log(data.$);
-          var exhibit = new Art({
-            id: data.$.id,
-            title: data.$.title,
-            location: data.$.location,
-            artist: data.$.artist,
-            link: data.$.link,
-            img: data.$.img,
-            art: data.$.art,
-            geo: [data.$.lat,data.$.lng]
-          });
-          //console.log(exhibit);
-          exhibit.save(function (err) {
-            if (err) // ...
-              console.log('cool');
-        });
-       });
-      });
-    }
-    else {
-      //
-    }
-});})();
