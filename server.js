@@ -52,7 +52,7 @@ app.get('/exhibits/:id', cors(), function(req, res){
   //parm id
   var id = req.params.id;
   res.set('Content-Type', 'application/json');
-  res.send(200,Exhibit[id]);
+  res.send(200,{exhibit: Exhibit.exhibit[id - 1]});
 
 });
 
