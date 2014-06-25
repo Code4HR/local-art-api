@@ -10,6 +10,10 @@ data sources
 
 installation
 ============
+Dependencies
+- Node
+- Mongo
+
 ```bash
 git clone git@github.com/<YOURUSER>/proxy-art
 npm install
