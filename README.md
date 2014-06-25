@@ -6,10 +6,10 @@ http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml
 
 import data
 ---
-use command, mongoimport --collection art --file data/exhibits.json --jsonArray
+use command, mongoimport --collection exhibits --file data/exhibits.json --jsonArray
 
 
-LICENSE 
+LICENSE
 ---
 
-APACHE 
+APACHE
