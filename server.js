@@ -11,8 +11,8 @@ var mongoose = require('mongoose');
 app.use(cors());
 
 
-var Art = require('./model/exhibit.js');
-
+//var Art = require('./model/exhibit.js');
+var Art = require('./data/exhibits.json');
 
 app.get('/', function(req, res){
   res.redirect(301, '/exhibits');
