@@ -10,7 +10,7 @@ data sources
 
 installation
 ============
-```
+```bash
 git clone git@github.com/<YOURUSER>/proxy-art
 npm install
 npm start
@@ -19,7 +19,10 @@ npm start
 
 import data
 ---
-use command, mongoimport --collection exhibits --file data/exhibits.json --jsonArray
+
+````bash
+mongoimport --collection exhibits --file data/exhibits.json --jsonArray
+````
 
 
 LICENSE
