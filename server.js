@@ -59,11 +59,13 @@ app.get('/', function(req, res){
     latitude: DS.attr('number'),
     longitude: DS.attr('number'),
 */
+app.options('/exhibits', cors());
 app.get('/exhibits', cors(), function(req, res){
   res.set('Content-Type', 'application/json');
   res.send(200,Exhibit);
 });
 
+app.options('/exhibits/:id', cors());
 app.get('/exhibits/:id', cors(), function(req, res){
   //parm id
   var id = req.params.id,
