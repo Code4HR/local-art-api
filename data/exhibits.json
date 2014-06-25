@@ -1,16 +1,6 @@
 {
   "exhibit":[
     {
-        "id": 0,
-        "title": "Torch Bearers",
-        "longitude": -76.29367858171463,
-        "latitude": 36.85602296216651,
-        "location": "Chrysler Museum",
-        "artists": "Anna Hyatt Huntington",
-        "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_torch_bearers.asp",
-        "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_Map.jpg",
-        "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_LightBox.jpg"
-    }, {
         "id": 1,
         "title": "Anchor",
         "longitude": -76.2937080860138,
@@ -770,6 +760,16 @@
         "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_goose.asp",
         "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_goose_map.jpg",
         "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_goose_LightBox.jpg"
+    }, {
+        "id": 77,
+        "title": "Torch Bearers",
+        "longitude": -76.29367858171463,
+        "latitude": 36.85602296216651,
+        "location": "Chrysler Museum",
+        "artists": "Anna Hyatt Huntington",
+        "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_torch_bearers.asp",
+        "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_Map.jpg",
+        "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_LightBox.jpg"
     }
 ]
 }

@@ -2,10 +2,15 @@ proxy-art
 =========
 
 a proxy for Norfolk Public Art collection hosted by the City of Norfolk and parses the feed from xml to json and enables CORS
-http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml
+
+data sources
+=======
+* [Downtown] (http://wwwnorfolkva.gov/cultural_affairs/public_art_downtown.xml)
+* [Botanical Gardens] (http://www.norfolkva.gov/cultural_affairs/public_art_botanical_garden.xml)
 
 installation
-```
+============
+```bash
 git clone git@github.com/<YOURUSER>/proxy-art
 npm install
 npm start
@@ -13,11 +18,14 @@ npm start
 ```
 
 import data
----
-use command, mongoimport --collection exhibits --file data/exhibits.json --jsonArray
+===========
+
+````bash
+mongoimport --collection exhibits --file data/exhibits.json --jsonArray
+````
 
 
-LICENSE
----
+license
+=======
 
-APACHE
+[Apache 2.0] (https://www.apache.org/licenses/LICENSE-2.0)
