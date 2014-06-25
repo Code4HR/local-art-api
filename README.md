@@ -9,6 +9,8 @@ installation
 git clone git@github.com/<YOURUSER>/proxy-art
 npm install
 npm start
+// Navigate to http://localhost:5555
+```
 
 import data
 ---
