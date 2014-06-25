@@ -34,10 +34,10 @@ app.get('/exhibits', cors(), function(req, res){
 
 app.get('/exhibits/:id', cors(), function(req, res){
   //parm id
-  if( typeof Exhibit[id] !== 'undefined'){
-    var id = req.params.id;
+  var id = req.params.id;
+  if( typeof Exhibit.exhibit[id] !== 'undefined'){
     res.set('Content-Type', 'application/json');
-    res.send(200,Exhibit[id]);
+    res.send(200,Exhibit.exhibit[id]);
   }
   else{
     res.send(404,"Not found");

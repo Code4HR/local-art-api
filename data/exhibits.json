@@ -1,4 +1,5 @@
-[
+{
+  "exhibit":[
     {
         "id": 0,
         "title": "Torch Bearers",
@@ -771,3 +772,4 @@
         "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_goose_LightBox.jpg"
     }
 ]
+}
