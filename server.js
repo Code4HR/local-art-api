@@ -43,8 +43,16 @@ var enableCORS = function(req, res, next) {
 
 app.use(enableCORS);
 
-//var Art = require('./model/exhibit.js');
-var Exhibit = require('./data/exhibits.json');
+var Exhibit = { 
+    exhibit: JSON.parse(fs.readFileSync(__dirname + '/data/exhibits.geojson'))
+        .features.map(
+            function (feature, i, list) {
+                var exhibit = feature.properties;
+                exhibit.longitude = feature.geometry.coordinates[0];
+                exhibit.latitude = feature.geometry.coordinates[1];
+                return exhibit;
+            })
+    };
 
 app.get('/', function(req, res){
   res.redirect(301, '/exhibits');
@@ -62,7 +70,7 @@ app.get('/', function(req, res){
 app.options('/exhibits', cors());
 app.get('/exhibits', cors(), function(req, res){
   res.set('Content-Type', 'application/json');
-  res.send(200,Exhibit);
+  res.status(200).send(Exhibit);
 });
 
 app.options('/exhibits/:id', cors());
@@ -72,12 +80,10 @@ app.get('/exhibits/:id', cors(), function(req, res){
       exhibit = Exhibit.exhibit[id - 1];
   if( typeof exhibit !== 'undefined'){
     res.set('Content-Type', 'application/json');
-    res.send(200, {exhibit: exhibit});
+    res.status(200).send({exhibit: exhibit});
+  } else {
+    res.status(404).send("Not found");
   }
-  else{
-    res.send(404,"Not found");
-  }
-
 });
 
 var port = Number(process.env.PORT || 5555);
