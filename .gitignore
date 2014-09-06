@@ -1,2 +1,6 @@
-node_modules
-npm-debug.log
+INSTALL.txt
+LICENSE.txt
+README.txt
+demos/
+extras/documentation
+
