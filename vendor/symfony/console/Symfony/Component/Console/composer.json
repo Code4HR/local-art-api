@@ -19,12 +19,10 @@
         "php": ">=5.3.3"
     },
     "require-dev": {
-        "symfony/event-dispatcher": "~2.1",
-        "psr/log": "~1.0"
+        "symfony/event-dispatcher": "~2.1"
     },
     "suggest": {
-        "symfony/event-dispatcher": "",
-        "psr/log": "For using the console logger"
+        "symfony/event-dispatcher": ""
     },
     "autoload": {
         "psr-0": { "Symfony\\Component\\Console\\": "" }
@@ -33,7 +31,7 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "2.5-dev"
+            "dev-master": "2.4-dev"
         }
     }
 }

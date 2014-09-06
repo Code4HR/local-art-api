@@ -14,11 +14,10 @@ namespace Symfony\Component\Validator\Tests\Mapping\Loader;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Symfony\Component\Validator\Constraints\All;
 use Symfony\Component\Validator\Constraints\Callback;
-use Symfony\Component\Validator\Constraints\Choice;
 use Symfony\Component\Validator\Constraints\Collection;
 use Symfony\Component\Validator\Constraints\NotNull;
 use Symfony\Component\Validator\Constraints\Range;
-use Symfony\Component\Validator\Constraints\True;
+use Symfony\Component\Validator\Constraints\Choice;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\Validator\Mapping\Loader\AnnotationLoader;
 use Symfony\Component\Validator\Tests\Fixtures\ConstraintA;
@@ -68,8 +67,6 @@ class AnnotationLoaderTest extends \PHPUnit_Framework_TestCase
             'choices' => array('A', 'B'),
         )));
         $expected->addGetterConstraint('lastName', new NotNull());
-        $expected->addGetterConstraint('valid', new True());
-        $expected->addGetterConstraint('permissions', new True());
 
         // load reflection class so that the comparison passes
         $expected->getReflectionClass();
@@ -137,8 +134,6 @@ class AnnotationLoaderTest extends \PHPUnit_Framework_TestCase
             'choices' => array('A', 'B'),
         )));
         $expected->addGetterConstraint('lastName', new NotNull());
-        $expected->addGetterConstraint('valid', new True());
-        $expected->addGetterConstraint('permissions', new True());
 
         // load reflection class so that the comparison passes
         $expected->getReflectionClass();

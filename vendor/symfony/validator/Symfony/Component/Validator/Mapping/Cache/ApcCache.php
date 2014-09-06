@@ -13,10 +13,6 @@ namespace Symfony\Component\Validator\Mapping\Cache;
 
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 
-/**
- * @deprecated Deprecated since version 2.5, to be removed in 3.0.
- *             Use DoctrineCache with Doctrine\Common\Cache\ApcCache instead.
- */
 class ApcCache implements CacheInterface
 {
     private $prefix;

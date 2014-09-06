@@ -30,10 +30,6 @@ class RegexValidator extends ConstraintValidator
      */
     public function validate($value, Constraint $constraint)
     {
-        if (!$constraint instanceof Regex) {
-            throw new UnexpectedTypeException($constraint, __NAMESPACE__.'\Regex');
-        }
-
         if (null === $value || '' === $value) {
             return;
         }

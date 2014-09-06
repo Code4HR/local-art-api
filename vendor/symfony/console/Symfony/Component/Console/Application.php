@@ -13,7 +13,6 @@ namespace Symfony\Component\Console;
 
 use Symfony\Component\Console\Descriptor\TextDescriptor;
 use Symfony\Component\Console\Descriptor\XmlDescriptor;
-use Symfony\Component\Console\Helper\QuestionHelper;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -68,7 +67,6 @@ class Application
     private $helperSet;
     private $dispatcher;
     private $terminalDimensions;
-    private $defaultCommand;
 
     /**
      * Constructor.
@@ -82,7 +80,6 @@ class Application
     {
         $this->name = $name;
         $this->version = $version;
-        $this->defaultCommand = 'list';
         $this->helperSet = $this->getDefaultHelperSet();
         $this->definition = $this->getDefaultInputDefinition();
 
@@ -148,8 +145,9 @@ class Application
             if ($exitCode > 255) {
                 $exitCode = 255;
             }
-
+            // @codeCoverageIgnoreStart
             exit($exitCode);
+            // @codeCoverageIgnoreEnd
         }
 
         return $exitCode;
@@ -182,8 +180,8 @@ class Application
         }
 
         if (!$name) {
-            $name = $this->defaultCommand;
-            $input = new ArrayInput(array('command' => $this->defaultCommand));
+            $name = 'list';
+            $input = new ArrayInput(array('command' => 'list'));
         }
 
         // the command name MUST be the first element of the input
@@ -964,7 +962,6 @@ class Application
             new DialogHelper(),
             new ProgressHelper(),
             new TableHelper(),
-            new QuestionHelper(),
         ));
     }
 
@@ -1095,16 +1092,6 @@ class Application
         asort($alternatives);
 
         return array_keys($alternatives);
-    }
-
-    /**
-     * Sets the default Command name.
-     *
-     * @param string $commandName The Command name
-     */
-    public function setDefaultCommand($commandName)
-    {
-        $this->defaultCommand = $commandName;
     }
 
     private function stringWidth($string)

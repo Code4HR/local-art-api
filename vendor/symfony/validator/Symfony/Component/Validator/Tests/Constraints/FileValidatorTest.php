@@ -124,24 +124,24 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
             // limit in bytes
             array(1001, 1000, '1001', '1000', 'bytes'),
             array(1004, 1000, '1004', '1000', 'bytes'),
-            array(1005, 1000, '1.01', '1', 'kB'),
+            array(1005, 1000, '1005', '1000', 'bytes'),
 
             array(1000001, 1000000, '1000001', '1000000', 'bytes'),
-            array(1004999, 1000000, '1005', '1000', 'kB'),
-            array(1005000, 1000000, '1.01', '1', 'MB'),
+            array(1004999, 1000000, '1004999', '1000000', 'bytes'),
+            array(1005000, 1000000, '1005000', '1000000', 'bytes'),
 
             // limit in kB
-            array(1001, '1k', '1001', '1000', 'bytes'),
-            array(1004, '1k', '1004', '1000', 'bytes'),
+            //array(1001, '1k') OK in 2.4, not in 2.5
+            //array(1004, '1k') OK in 2.4, not in 2.5
             array(1005, '1k', '1.01', '1', 'kB'),
 
-            array(1000001, '1000k', '1000001', '1000000', 'bytes'),
+            //array(1000001, '1000k') OK in 2.4, not in 2.5
             array(1004999, '1000k', '1005', '1000', 'kB'),
-            array(1005000, '1000k', '1.01', '1', 'MB'),
+            array(1005000, '1000k', '1005', '1000', 'kB'),
 
             // limit in MB
-            array(1000001, '1M', '1000001', '1000000', 'bytes'),
-            array(1004999, '1M', '1005', '1000', 'kB'),
+            //array(1000001, '1M') OK in 2.4, not in 2.5
+            //array(1004999, '1M') OK in 2.4, not in 2.5
             array(1005000, '1M', '1.01', '1', 'MB'),
         );
     }
@@ -181,8 +181,17 @@ abstract class FileValidatorTest extends AbstractConstraintValidatorTest
             array(1000, '1k'),
             array(1000000, '1000k'),
 
+            // as of Symfony 2.5, the following are not accepted anymore
+            array(1001, '1k'),
+            array(1004, '1k'),
+            array(1000001, '1000k'),
+
             // limit in MB
             array(1000000, '1M'),
+
+            // as of Symfony 2.5, the following are not accepted anymore
+            array(1000001, '1M'),
+            array(1004999, '1M'),
         );
     }
 

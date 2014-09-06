@@ -22,15 +22,15 @@ class GroupSequenceProviderEntity implements GroupSequenceProviderInterface
     public $firstName;
     public $lastName;
 
-    protected $sequence = array();
+    protected $groups = array();
 
-    public function __construct($sequence)
+    public function setGroups($groups)
     {
-        $this->sequence = $sequence;
+        $this->groups = $groups;
     }
 
     public function getGroupSequence()
     {
-        return $this->sequence;
+        return $this->groups;
     }
 }

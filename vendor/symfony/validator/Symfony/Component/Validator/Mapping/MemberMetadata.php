@@ -11,54 +11,21 @@
 
 namespace Symfony\Component\Validator\Mapping;
 
-use Symfony\Component\Validator\Constraint;
-use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
 use Symfony\Component\Validator\ValidationVisitorInterface;
+use Symfony\Component\Validator\ClassBasedInterface;
+use Symfony\Component\Validator\PropertyMetadataInterface;
+use Symfony\Component\Validator\Constraint;
+use Symfony\Component\Validator\Constraints\Valid;
+use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
 
-/**
- * Stores all metadata needed for validating a class property.
- *
- * The method of accessing the property's value must be specified by subclasses
- * by implementing the {@link newReflectionMember()} method.
- *
- * This class supports serialization and cloning.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- *
- * @see PropertyMetadataInterface
- */
-abstract class MemberMetadata extends ElementMetadata implements PropertyMetadataInterface
+abstract class MemberMetadata extends ElementMetadata implements PropertyMetadataInterface, ClassBasedInterface
 {
-    /**
-     * @var string
-     *
-     * @internal This property is public in order to reduce the size of the
-     *           class' serialized representation. Do not access it. Use
-     *           {@link getClassName()} instead.
-     */
     public $class;
-
-    /**
-     * @var string
-     *
-     * @internal This property is public in order to reduce the size of the
-     *           class' serialized representation. Do not access it. Use
-     *           {@link getName()} instead.
-     */
     public $name;
-
-    /**
-     * @var string
-     *
-     * @internal This property is public in order to reduce the size of the
-     *           class' serialized representation. Do not access it. Use
-     *           {@link getPropertyName()} instead.
-     */
     public $property;
-
-    /**
-     * @var \ReflectionMethod[]|\ReflectionProperty[]
-     */
+    public $cascaded = false;
+    public $collectionCascaded = false;
+    public $collectionCascadedDeeply = false;
     private $reflMember = array();
 
     /**
@@ -75,11 +42,6 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
         $this->property = $property;
     }
 
-    /**
-     * {@inheritdoc}
-     *
-     * @deprecated Deprecated since version 2.5, to be removed in Symfony 3.0.
-     */
     public function accept(ValidationVisitorInterface $visitor, $value, $group, $propertyPath, $propagatedGroup = null)
     {
         $visitor->visit($this, $value, $group, $propertyPath);
@@ -101,13 +63,22 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
             ));
         }
 
-        parent::addConstraint($constraint);
+        if ($constraint instanceof Valid) {
+            $this->cascaded = true;
+            /* @var Valid $constraint */
+            $this->collectionCascaded = $constraint->traverse;
+            $this->collectionCascadedDeeply = $constraint->deep;
+        } else {
+            parent::addConstraint($constraint);
+        }
 
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * Returns the names of the properties that should be serialized
+     *
+     * @return array
      */
     public function __sleep()
     {
@@ -115,11 +86,14 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
             'class',
             'name',
             'property',
+            'cascaded',
+            'collectionCascaded',
+            'collectionCascadedDeeply',
         ));
     }
 
     /**
-     * Returns the name of the member.
+     * Returns the name of the member
      *
      * @return string
      */
@@ -129,7 +103,9 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * {@inheritdoc}
+     * Returns the class this member is defined on
+     *
+     * @return string
      */
     public function getClassName()
     {
@@ -137,7 +113,9 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * {@inheritdoc}
+     * Returns the name of the property this member belongs to
+     *
+     * @return string The property name
      */
     public function getPropertyName()
     {
@@ -145,7 +123,7 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * Returns whether this member is public.
+     * Returns whether this member is public
      *
      * @param object|string $objectOrClassName The object or the class name
      *
@@ -169,7 +147,7 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * Returns whether this member is private.
+     * Returns whether this member is private
      *
      * @param object|string $objectOrClassName The object or the class name
      *
@@ -181,52 +159,43 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * Returns whether objects stored in this member should be validated.
+     * Returns whether objects stored in this member should be validated
      *
      * @return bool
-     *
-     * @deprecated Deprecated since version 2.5, to be removed in Symfony 3.0.
-     *             Use {@link getCascadingStrategy()} instead.
      */
     public function isCascaded()
     {
-        return (bool) ($this->cascadingStrategy & CascadingStrategy::CASCADE);
+        return $this->cascaded;
     }
 
     /**
      * Returns whether arrays or traversable objects stored in this member
-     * should be traversed and validated in each entry.
+     * should be traversed and validated in each entry
      *
      * @return bool
-     *
-     * @deprecated Deprecated since version 2.5, to be removed in Symfony 3.0.
-     *             Use {@link getTraversalStrategy()} instead.
      */
     public function isCollectionCascaded()
     {
-        return (bool) ($this->traversalStrategy & (TraversalStrategy::IMPLICIT | TraversalStrategy::TRAVERSE));
+        return $this->collectionCascaded;
     }
 
     /**
      * Returns whether arrays or traversable objects stored in this member
-     * should be traversed recursively for inner arrays/traversable objects.
+     * should be traversed recursively for inner arrays/traversable objects
      *
      * @return bool
-     *
-     * @deprecated Deprecated since version 2.5, to be removed in Symfony 3.0.
-     *             Use {@link getTraversalStrategy()} instead.
      */
     public function isCollectionCascadedDeeply()
     {
-        return !($this->traversalStrategy & TraversalStrategy::STOP_RECURSION);
+        return $this->collectionCascadedDeeply;
     }
 
     /**
-     * Returns the reflection instance for accessing the member's value.
+     * Returns the Reflection instance of the member
      *
      * @param object|string $objectOrClassName The object or the class name
      *
-     * @return \ReflectionMethod|\ReflectionProperty The reflection instance
+     * @return object
      */
     public function getReflectionMember($objectOrClassName)
     {
@@ -239,13 +208,11 @@ abstract class MemberMetadata extends ElementMetadata implements PropertyMetadat
     }
 
     /**
-     * Creates a new reflection instance for accessing the member's value.
-     *
-     * Must be implemented by subclasses.
+     * Creates a new Reflection instance for the member
      *
      * @param object|string $objectOrClassName The object or the class name
      *
-     * @return \ReflectionMethod|\ReflectionProperty The reflection instance
+     * @return mixed Reflection class
      */
     abstract protected function newReflectionMember($objectOrClassName);
 }

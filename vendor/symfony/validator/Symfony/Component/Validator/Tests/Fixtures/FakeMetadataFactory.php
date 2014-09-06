@@ -11,9 +11,9 @@
 
 namespace Symfony\Component\Validator\Tests\Fixtures;
 
-use Symfony\Component\Validator\Exception\NoSuchMetadataException;
 use Symfony\Component\Validator\MetadataFactoryInterface;
-use Symfony\Component\Validator\MetadataInterface;
+use Symfony\Component\Validator\Exception\NoSuchMetadataException;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
 
 class FakeMetadataFactory implements MetadataFactoryInterface
 {
@@ -21,10 +21,7 @@ class FakeMetadataFactory implements MetadataFactoryInterface
 
     public function getMetadataFor($class)
     {
-        $hash = null;
-
         if (is_object($class)) {
-            $hash = spl_object_hash($class);
             $class = get_class($class);
         }
 
@@ -33,10 +30,6 @@ class FakeMetadataFactory implements MetadataFactoryInterface
         }
 
         if (!isset($this->metadatas[$class])) {
-            if (isset($this->metadatas[$hash])) {
-                return $this->metadatas[$hash];
-            }
-
             throw new NoSuchMetadataException(sprintf('No metadata for "%s"', $class));
         }
 
@@ -45,10 +38,7 @@ class FakeMetadataFactory implements MetadataFactoryInterface
 
     public function hasMetadataFor($class)
     {
-        $hash = null;
-
         if (is_object($class)) {
-            $hash = spl_object_hash($class);
             $class = get_class($class);
         }
 
@@ -56,17 +46,11 @@ class FakeMetadataFactory implements MetadataFactoryInterface
             return false;
         }
 
-        return isset($this->metadatas[$class]) || isset($this->metadatas[$hash]);
+        return isset($this->metadatas[$class]);
     }
 
-    public function addMetadata($metadata)
+    public function addMetadata(ClassMetadata $metadata)
     {
         $this->metadatas[$metadata->getClassName()] = $metadata;
-    }
-
-    public function addMetadataForValue($value, MetadataInterface $metadata)
-    {
-        $key = is_object($value) ? spl_object_hash($value) : $value;
-        $this->metadatas[$key] = $metadata;
     }
 }

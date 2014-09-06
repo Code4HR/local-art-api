@@ -1,0 +1,55 @@
+<?php
+    $title = 'Norfolk public art exhibits';
+    $this->headTitle($title);
+?>
+<h1>
+    <?php echo $this->escapeHtml($title); ?>
+</h1>
+
+<p>
+<a href="<?php echo $this->url('exhibit', ['action' => 'add']); ?>">
+    Add new exhibit
+</a>
+</p>
+
+<table class="table">
+    <tr>
+	<th>
+	    Title
+	</th>
+
+	<th>
+	    Artists
+	</th>
+
+	<th>
+	    &nbsp;
+	</th>
+    </tr>
+
+    <tr><td>
+    <?php echo $this->exhibits->count(); ?>
+    </td></tr>
+
+    <?php foreach ($this->exhibits as $exhibit) : ?>
+	<tr>
+	    <td>
+		<?php echo $this->escapeHtml($exhibit->title);?>
+	    </td>
+
+	    <td>
+		<?php echo $this->escapeHtml($exhibit->artists);?>
+	    </td>
+
+	    <td>
+		<a href="<?php echo $this->url('exhibit', ['action' => 'edit', 'id' => $exhibit->id]); ?>">
+		    Edit
+		</a>
+
+		<a href="<?php echo $this->url('exhibit', ['action' => 'delete', 'id' => $exhibit->id]);?>">
+		    Delete
+		</a>
+	    </td>
+	</tr>
+    <?php endforeach; ?>
+</table>

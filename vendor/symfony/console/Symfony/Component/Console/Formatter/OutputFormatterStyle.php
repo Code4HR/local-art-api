@@ -21,31 +21,31 @@ namespace Symfony\Component\Console\Formatter;
 class OutputFormatterStyle implements OutputFormatterStyleInterface
 {
     private static $availableForegroundColors = array(
-        'black'     => array('set' => 30, 'unset' => 39),
-        'red'       => array('set' => 31, 'unset' => 39),
-        'green'     => array('set' => 32, 'unset' => 39),
-        'yellow'    => array('set' => 33, 'unset' => 39),
-        'blue'      => array('set' => 34, 'unset' => 39),
-        'magenta'   => array('set' => 35, 'unset' => 39),
-        'cyan'      => array('set' => 36, 'unset' => 39),
-        'white'     => array('set' => 37, 'unset' => 39)
+        'black'     => 30,
+        'red'       => 31,
+        'green'     => 32,
+        'yellow'    => 33,
+        'blue'      => 34,
+        'magenta'   => 35,
+        'cyan'      => 36,
+        'white'     => 37
     );
     private static $availableBackgroundColors = array(
-        'black'     => array('set' => 40, 'unset' => 49),
-        'red'       => array('set' => 41, 'unset' => 49),
-        'green'     => array('set' => 42, 'unset' => 49),
-        'yellow'    => array('set' => 43, 'unset' => 49),
-        'blue'      => array('set' => 44, 'unset' => 49),
-        'magenta'   => array('set' => 45, 'unset' => 49),
-        'cyan'      => array('set' => 46, 'unset' => 49),
-        'white'     => array('set' => 47, 'unset' => 49)
+        'black'     => 40,
+        'red'       => 41,
+        'green'     => 42,
+        'yellow'    => 43,
+        'blue'      => 44,
+        'magenta'   => 45,
+        'cyan'      => 46,
+        'white'     => 47
     );
     private static $availableOptions = array(
-        'bold'          => array('set' => 1, 'unset' => 22),
-        'underscore'    => array('set' => 4, 'unset' => 24),
-        'blink'         => array('set' => 5, 'unset' => 25),
-        'reverse'       => array('set' => 7, 'unset' => 27),
-        'conceal'       => array('set' => 8, 'unset' => 28)
+        'bold'          => 1,
+        'underscore'    => 4,
+        'blink'         => 5,
+        'reverse'       => 7,
+        'conceal'       => 8
     );
 
     private $foreground;
@@ -201,28 +201,22 @@ class OutputFormatterStyle implements OutputFormatterStyleInterface
      */
     public function apply($text)
     {
-        $setCodes = array();
-        $unsetCodes = array();
+        $codes = array();
 
         if (null !== $this->foreground) {
-            $setCodes[] = $this->foreground['set'];
-            $unsetCodes[] = $this->foreground['unset'];
+            $codes[] = $this->foreground;
         }
         if (null !== $this->background) {
-            $setCodes[] = $this->background['set'];
-            $unsetCodes[] = $this->background['unset'];
+            $codes[] = $this->background;
         }
         if (count($this->options)) {
-            foreach ($this->options as $option) {
-                $setCodes[] = $option['set'];
-                $unsetCodes[] = $option['unset'];
-            }
+            $codes = array_merge($codes, $this->options);
         }
 
-        if (0 === count($setCodes)) {
+        if (0 === count($codes)) {
             return $text;
         }
 
-        return sprintf("\033[%sm%s\033[%sm", implode(';', $setCodes), $text, implode(';', $unsetCodes));
+        return sprintf("\033[%sm%s\033[0m", implode(';', $codes), $text);
     }
 }

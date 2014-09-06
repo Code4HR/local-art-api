@@ -44,8 +44,8 @@ class DateRangeFilterIterator extends FilterIterator
     {
         $fileinfo = $this->current();
 
-        if (!file_exists($fileinfo->getRealPath())) {
-            return false;
+        if (!$fileinfo->isFile()) {
+            return true;
         }
 
         $filedate = $fileinfo->getMTime();

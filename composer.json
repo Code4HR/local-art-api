@@ -6,10 +6,14 @@
         "framework",
         "zf2"
     ],
+    "autoload": {
+	 "psr-0": { "Exhibit": "module/Exhibit/src/" }
+    },
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+	"propel/propel": "~2.0@dev"
     }, "require-dev": {
         "phing/phing": "2.*",
         "phpdocumentor/phpdocumentor": "2.*"
