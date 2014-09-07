@@ -19,7 +19,31 @@
 	</th>
 
 	<th>
+	    Coordinates
+	</th>
+
+	<th>
+	    Location
+	</th>
+
+	<th>
 	    Artists
+	</th>
+
+	<th>
+	    URL
+	</th>
+
+	<th>
+	    Thumbnail
+	</th>
+
+	<th>
+	    Image
+	</th>
+
+	<th>
+	    Description
 	</th>
 
 	<th>
@@ -27,18 +51,39 @@
 	</th>
     </tr>
 
-    <tr><td>
-    <?php echo $this->exhibits->count(); ?>
-    </td></tr>
-
     <?php foreach ($this->exhibits as $exhibit) : ?>
 	<tr>
 	    <td>
 		<?php echo $this->escapeHtml($exhibit->title);?>
 	    </td>
 
+	    <td>(<?php echo $this->escapeHtml($exhibit->longitude);?>, <?php echo $this->escapeHtml($exhibit->latitude);?>)
+	    </td>
+
+	    <td>
+		<?php echo $this->escapeHtml($exhibit->location);?>
+	    </td>
+
 	    <td>
 		<?php echo $this->escapeHtml($exhibit->artists);?>
+	    </td>
+
+	    <td>
+		<a href="<?php echo $exhibit->url;?>">
+		    Link
+		</a>
+	    </td>
+
+	    <td>
+		<img src="<?php echo $exhibit->imageurl;?>" />
+	    </td>
+
+	    <td>
+		<img src="<?php echo $exhibit->fullimage;?>" />
+	    </td>
+
+	    <td>
+		<?php echo $this->escapeHtml($exhibit->description);?>
 	    </td>
 
 	    <td>

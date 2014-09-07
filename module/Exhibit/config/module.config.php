@@ -11,7 +11,7 @@ return array(
 			'exhibit' => array(
 				  'type' => 'segment'
 				, 'options' => array(
-					  'route' => '/exhibit[/:action][/:id]'
+					  'route' => '/exhibits[/:action][/:id]'
 					, 'constraints' => array(
 						  'action' => '[a-zA-Z][a-zA-Z0-9_-]*'
 						, 'id' => '[0-9]+'

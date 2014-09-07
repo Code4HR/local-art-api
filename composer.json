@@ -16,6 +16,7 @@
 	"propel/propel": "~2.0@dev"
     }, "require-dev": {
         "phing/phing": "2.*",
+	"phpunit/phpunit": "4.2.*",
         "phpdocumentor/phpdocumentor": "2.*"
     }
 }
