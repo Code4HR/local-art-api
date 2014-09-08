@@ -1,0 +1,25 @@
+<?php
+    $title = 'Norfolk public art exhibits';
+    $this->headTitle($title);
+?>
+<h1>
+    <?php echo $this->escapeHtml($title); ?>
+</h1>
+
+<p>
+<a href="<?php echo $this->url('exhibit', ['action' => 'add']); ?>">
+    Add new exhibit
+</a>
+</p>
+
+<p>
+    <?php
+	use Zend\Json\Json;
+
+	$list = [];
+	foreach ($this->exhibits as $exhibit) {
+	    $list[] = $exhibit;
+	}
+	echo Zend\Json\Json::prettyPrint(Zend\Json\Json::encode(['exhibit' => $list]));
+    ?>
+</p>
