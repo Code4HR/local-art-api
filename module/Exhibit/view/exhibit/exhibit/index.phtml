@@ -12,89 +12,14 @@
 </a>
 </p>
 
-<table class="table">
-    <tr>
-	<th>
-	    Title
-	</th>
+<p>
+    <?php
+	use Zend\Json\Json;
 
-	<th>
-	    Coordinates
-	</th>
-
-	<th>
-	    Location
-	</th>
-
-	<th>
-	    Artists
-	</th>
-
-	<th>
-	    URL
-	</th>
-
-	<th>
-	    Thumbnail
-	</th>
-
-	<th>
-	    Image
-	</th>
-
-	<th>
-	    Description
-	</th>
-
-	<th>
-	    &nbsp;
-	</th>
-    </tr>
-
-    <?php foreach ($this->exhibits as $exhibit) : ?>
-	<tr>
-	    <td>
-		<?php echo $this->escapeHtml($exhibit->title);?>
-	    </td>
-
-	    <td>(<?php echo $this->escapeHtml($exhibit->longitude);?>, <?php echo $this->escapeHtml($exhibit->latitude);?>)
-	    </td>
-
-	    <td>
-		<?php echo $this->escapeHtml($exhibit->location);?>
-	    </td>
-
-	    <td>
-		<?php echo $this->escapeHtml($exhibit->artists);?>
-	    </td>
-
-	    <td>
-		<a href="<?php echo $exhibit->url;?>">
-		    Link
-		</a>
-	    </td>
-
-	    <td>
-		<img src="<?php echo $exhibit->imageurl;?>" />
-	    </td>
-
-	    <td>
-		<img src="<?php echo $exhibit->fullimage;?>" />
-	    </td>
-
-	    <td>
-		<?php echo $this->escapeHtml($exhibit->description);?>
-	    </td>
-
-	    <td>
-		<a href="<?php echo $this->url('exhibit', ['action' => 'edit', 'id' => $exhibit->id]); ?>">
-		    Edit
-		</a>
-
-		<a href="<?php echo $this->url('exhibit', ['action' => 'delete', 'id' => $exhibit->id]);?>">
-		    Delete
-		</a>
-	    </td>
-	</tr>
-    <?php endforeach; ?>
-</table>
+	$list = [];
+	foreach ($this->exhibits as $exhibit) {
+	    $list[] = $exhibit;
+	}
+	echo Zend\Json\Json::prettyPrint(Zend\Json\Json::encode(['exhibit' => $list]));
+    ?>
+</p>
