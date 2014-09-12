@@ -13,6 +13,7 @@ installation
 ```bash
 git clone git@github.com/<YOURUSER>/proxy-art
 cd proxy-art
+git checkout --track origin/php
 composer install
 # Set up the application with your web server
 ```
