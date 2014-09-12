@@ -20,4 +20,4 @@ composer install
 license
 =======
 
-[GPL v3] (https://gnu.org/licenses/gpl.html)
+[Affero GPL v3] (https://www.gnu.org/licenses/agpl-3.0.html)
