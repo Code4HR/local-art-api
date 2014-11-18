@@ -5,7 +5,7 @@ a proxy for Norfolk Public Art collection hosted by the City of Norfolk and pars
 
 data sources
 =======
-* [Downtown] (http://wwwnorfolkva.gov/cultural_affairs/public_art_downtown.xml)
+* [Downtown] (http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml)
 * [Botanical Gardens] (http://www.norfolkva.gov/cultural_affairs/public_art_botanical_garden.xml)
 
 installation
