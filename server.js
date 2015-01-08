@@ -21,6 +21,7 @@ var express = require('express');
 var _ = require('lodash');
 var cors = require('cors');
 var app = express();
+var query_overpass = require('query-overpass');
 
 var parser = new xml2js.Parser();
 var mongoose = require('mongoose');
@@ -84,6 +85,32 @@ app.get('/exhibits/:id', cors(), function(req, res){
   } else {
     res.status(404).send("Not found");
   }
+});
+
+app.options('/osm', cors());
+app.get('/osm', cors(), function (req, res) {
+    query_overpass(
+        '[out:json];node(36.75,-76.44,36.98,-76.13)[tourism=artwork];out;'
+        , function (error, data) {
+            res.set('Content-Type', 'application/json');
+            res.send({
+                exhibit: data.features.map(
+                    function (feature, i, list) {
+                        return {
+                              id: feature.properties.id
+                            , title: feature.properties.tags.name
+                            , longitude: feature.geometry.coordinates[0]
+                            , latitude: feature.geometry.coordinates[1]
+                            , location: feature.properties.tags.name // no current location
+                            , artists: feature.properties.tags.artist_name
+                            , url: feature.properties.tags.source
+                            , imageurl: feature.properties.tags.website_1
+                            , fullimage: feature.properties.tags.website
+                            , description: feature.properties.tags.note + (feature.properties.tags.hasOwnProperty('note_1') ? feature.properties.tags.note_1 : '')
+                        };
+                    })
+            });
+        });
 });
 
 var port = Number(process.env.PORT || 5555);
