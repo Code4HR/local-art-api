@@ -1,21 +1,27 @@
 {
-  "name": "proxy-art",
-  "version": "0.0.0",
-  "description": "",
+  "name": "local-art-api",
+  "version": "0.0.1",
+  "description": "The API for Norfolk Art, written in hapi.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbprice/local-art-api.git"
+  },
+  "keywords": [
+    "art",
+    "api",
+    "hapi"
+  ],
+  "author": "W. Blaine Price",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbprice/local-art-api/issues"
+  },
+  "homepage": "https://github.com/wbprice/local-art-api",
   "dependencies": {
-    "cors": "^2.3.1",
-    "express": "^4.4.3",
-    "lodash": "^2.4.1",
-    "mongoose": "^3.8.12",
-    "parserproxy": "^0.3.0",
-    "request": "^2.36.0",
-    "xml2js": "^0.4.4"
+    "hapi": "^8.0.0"
   }
 }
