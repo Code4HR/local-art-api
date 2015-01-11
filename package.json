@@ -2,26 +2,32 @@
   "name": "local-art-api",
   "version": "0.0.1",
   "description": "The API for Norfolk Art, written in hapi.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wbprice/local-art-api.git"
-  },
+  "license": "Affero GPL v.3",
   "keywords": [
     "art",
     "api",
     "hapi"
   ],
-  "author": "W. Blaine Price",
-  "license": "MIT",
+  "author": "Code for Hampton Roads Volunteers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbprice/local-art-api.git"
+  },
   "bugs": {
     "url": "https://github.com/wbprice/local-art-api/issues"
   },
   "homepage": "https://github.com/wbprice/local-art-api",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
   "dependencies": {
-    "hapi": "^8.0.0"
-  }
+    "hapi": "^8.0.0",
+    "query-overpass": "1.0.0",
+    "underscore": "1.7.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js"
 }
