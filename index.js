@@ -40,7 +40,13 @@ server.route({
 		if (request.url.query.bbox) {
 			bbox = request.url.query.bbox;
 			query = '[out:json];node(' + bbox + ')[tourism=artwork];out;'
-		}
+		} else if (!request.url.query.bbox) {
+			// If no bounding box is provided, assume Norfolk.
+			// tk do some response limiting here with query string in app
+			// or by getting long/lat from request source IP.
+			bbox = '36.75,-76.44,36.98,-76.13';
+			query = '[out:json];node(' + bbox + ')[tourism=artwork];out;'
+		};
 
 		// Alternatively, use latitude and longitude.
 		if (request.url.query.longitude &&
