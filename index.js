@@ -25,13 +25,16 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
 var server = new Hapi.Server();
 server.connection({
 	host: server_ip_address,
-	port: server_port
+	port: server_port,
 });
 
 // Add the route
 server.route({
 	method: 'GET',
 	path: '/exhibits',
+	config: {
+		cors: true
+	},	
 	handler: function(request, reply) {
 
 		var bbox, longitude, latitude, numberOfResults, zoomLevel, query;
@@ -99,7 +102,7 @@ server.route({
 
 				});
 
-				reply(formattedResponse);
+				reply({exhibit: formattedResponse});
 
 			}
 		);
