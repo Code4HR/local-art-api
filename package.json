@@ -27,7 +27,8 @@
     "underscore": "1.7.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "make test-cov"
   },
   "main": "index.js",
   "devDependencies": {
