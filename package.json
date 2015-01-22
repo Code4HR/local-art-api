@@ -32,6 +32,7 @@
   },
   "main": "index.js",
   "devDependencies": {
+    "code": "^1.2.1",
     "lab": "^5.2.0"
   }
 }
