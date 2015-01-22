@@ -29,5 +29,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "lab": "^5.2.0"
+  }
 }
