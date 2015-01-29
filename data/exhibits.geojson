@@ -1,0 +1,1546 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Unknown",
+                "description": "The anchor is partially visible where it is buried in front of the museum. Located in front of the magnolia tree beside Mowbray Arch on the left of the Museum, the iron anchor is claimed to have been “dredged from the waters around Craney Island years ago by crew of J.H. Miles fishing boats.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Anchor_LightBox.jpg",
+                "id": 1,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Anchor_Map.jpg",
+                "location": "Chrysler Museum",
+                "title": "Anchor",
+                "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_anchor.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2937080860138,
+                    36.856507992078235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Tony Rosenthal",
+                "description": "This is the first of four of these sculptures made of structural steel in existence. In 1977 Rosenthal granted the Museum permission to sandblast the sculpture allowing the surface to rust. This 900 pound sculpture was a gift of the Walter P. Chrysler, Jr.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Big_Six_LightBox.jpg",
+                "id": 2,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Big_Six_Map.jpg",
+                "location": "Chrysler Museum",
+                "title": "Big Six",
+                "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_bigsix.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29236161708832,
+                    36.85569245329526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Jasha Green",
+                "description": "This 3500 pound sculpture is made of Cor–ten steel. The title, “Floor Kites,” is meant to evoke the concepts of: irony, contradiction, and opposing forces. The formally structured piece, despite its material and weight, gives the illusion of a giant object having come to rest or about to take off in the wind. It was a gift of Dr. and Mrs. Reuben Hoppenstein.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Floor_Kite_XII_LightBox.jpg",
+                "id": 3,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Floor_Kite_XII_Map.jpg",
+                "location": "Chrysler Museum",
+                "title": "Floor Kite XII",
+                "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_floor_kite.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29231065511703,
+                    36.85631269279368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "John Safer",
+                "description": "A polished stainless steel abstract form standing on one end rests on a cast concrete plinth in the middle of a fountain above street level.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Leading_Edge_LightBox.jpg",
+                "id": 4,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Leading_Edge_Map.jpg",
+                "location": "1 Commercial Place",
+                "title": "Leading Edge",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_leading_edge.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28867357969284,
+                    36.84534937896169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Stanley Bleifeld",
+                "description": "The work is a cast bronze soldier holding a cast flag with pole. The figure, cast in 1896, is slightly larger than life-size. It was placed atop a tall granite column with ornate capital, in 1951. A large bronze medallion commemorating Confederate veterans is on the west face of the column.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Confederate_Soldier_LightBo.jpg",
+                "id": 5,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Confederate_Soldier_Map.jpg",
+                "location": "Main Street Rotary",
+                "title": "Norfolk Confederate Soldier",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_confederate_soldier.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28859579563141,
+                    36.845692811234784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Wyland Foundation",
+                "description": "The painted mural is of a leaping whale painted on the prepared surface of the Garage. The mural is number 47 in a series of fund-raising projects by the Wyland Foundation in cities throughout the world.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Whaling_Wall_LightBox.jpg",
+                "id": 6,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Whaling_Wall_Map.jpg",
+                "location": "First Union Garage",
+                "title": "Whaling Wall #47",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_whaling_wall.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28727614879608,
+                    36.8432629947532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "William Wainwright",
+                "description": "This artwork is a triangular, stainless steel form composed of hundreds of small triangular pieces of polished steel on a tall tapered pole. The small triangles move with the breeze and catch significant light. The work is integrated into the Amphitheatre plaza, echoing a geometric step and ziggurat design.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/tower_of_light_LightBox.jpg",
+                "id": 7,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/tower_of_light_map.jpg",
+                "location": "Dominion Amphitheatre",
+                "title": "Tower of Light",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_tower_of_light.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28826856613159,
+                    36.84319859927324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "The mural is a classic mid-century advertising bill board painted directly onto the brick building.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Gold_Medal_Flour_LightBox.jpg",
+                "id": 8,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Gold_Medal_Flour_Map.jpg",
+                "location": "300 block Granby Street",
+                "title": "Gold Medal Flour",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_gold_medal.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28931730985641,
+                    36.851797062491514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Vicki Norris",
+                "description": "Completed by lead artist Vicki Norris along with participants of the City of Norfolk’s 2011 Emerging Leaders program Christine Quejada, Ayan Shelton, Kelvin Small, Tykia Salter & Lavelle Spratley. Murals are acrylic on lauan. Images of the Emerging Leaders who were part of this project are depicted in a scene at Town Point Park. \r\n\r\nThe Navy ship, The Wisconsin, in port at the Norfolk Waterside greets you as you enter the Municipal Center. A photo image of the Blackwater and Nottaway River has been recreated into a mural. At the suggestion of the Emerging Leaders, a special mermaid was constructed from painted acetate and secured to plywood. Labels from Norfolk water bottles were used to bring the mermaid to life.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/GMB_LBox.jpg",
+                "id": 9,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/GMB_map.jpg",
+                "location": "Granby Municipal Center",
+                "title": "Summer In The City",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_gmb.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2896579504013,
+                    36.85126478431082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "John Rudel",
+                "description": "Completed by lead artist John Rudel along with participants of the City of Norfolk’s 2011 Emerging Leaders program Elizabeth Hassell, Zoltan Suhay, Jaelah Majette, Brehan Backus & Keana Love.\r\n“Eyes” is a piece that relates to the traditional summer camp craft project called “God’s Eyes.” Constructed out of aluminum units that mimic computer pixels, this piece reminds us of our ability to connect deeply and emotionally even through technologically mediated experiences. In addition to this team project, each Emerging Leader participant fabricated their own individual design from start to finish. Their work hangs in the interior of the garage. “Eyes” can be seen from the garage exterior.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/EYES_MacArthurNorth_LBox.jpg",
+                "id": 10,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/EYES_map.jpg",
+                "location": "MacArthur North Parking Garage",
+                "title": "Eyes",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_eyes.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28834366798401,
+                    36.84989973139186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Crystal Coffey Warlitner",
+                "description": "Completed by lead artist Crystal Coffey Warlitner along with participants of the City of Norfolk’s 2011 Emerging Leaders program Jaevin Cobb, Danyel Fuller, Elijah Gravelle, Kaitlyn Miller & David Savage. \r\n\r\nThe project team selected a mosaic porcelain and glass tile medium. The design, based upon the Ocean View location, was a collaborative effort with input from all team members, Senior Center patrons and staff.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/BITBYBIT_OVSenior_LBox.jpg",
+                "id": 11,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/BITBYBIT_map.jpg",
+                "location": "Ocean View Senior Center",
+                "title": "Bit By Bit",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_bitbybit.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.24619007110596,
+                    36.95017473069594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Gregg LeFevre",
+                "description": "This is one of two bronze maps created for the opening of MacArthur Mall. The floor piece is embedded in the concrete plaza outside the north exit of the Mall represents key locations in Norfolk in 1851.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Norfolk_1851_LightBox.jpg",
+                "id": 12,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Norfolk_1851_Map.jpg",
+                "location": "MacArthur Mall - North Exit",
+                "title": "Norfolk 1851",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_norfolk_1851.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28724932670593,
+                    36.850159436733506
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Solomon Isekeije",
+                "description": "Artist Solomon Isekeije worked with 6 participants of the City’s 2009 Summer Earn and Learn program. Solomon and the apprentice artists created this 32’ mixed media resin and metal mural celebrating the diversity of events and cultural experiences hosted in SCOPE and Chrysler Hall. This unique program was a partnership between Norfolk’s Parking Division, Public Art Program, and the Human Resource Department.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Celebration_SCOPE_LightBox.jpg",
+                "id": 13,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Celebration_SCOPE_map.jpg",
+                "location": "SCOPE Parking Garage",
+                "title": "Celebration",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_celebration.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28678798675537,
+                    36.85328656318699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Gregg LeFevre",
+                "description": "This is one of two bronze maps created for the opening of MacArthur Mall. The floor piece is embedded in the concrete plaza outside the southwest entrance of the Mall represents a compass with key locations in Norfolk.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Hampton_Roads_LightBox.jpg",
+                "id": 14,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Hampton_Roads_Map.jpg",
+                "location": "MacArthur Mall",
+                "title": "Hampton Roads",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_hampton_roads.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29021048545837,
+                    36.84791649787294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Stanley Bleifeld",
+                "description": "The work is a life-sized cast bronze portrait of the general in uniform, holding a jacket. The signed and dated sculpture sits upon a polished granite pedestal. It is an edition bronze, created in conjunction with the MacArthur Committee in West Point, New York. The work was purchased by the MacArthur Foundation for the Citizens of Norfolk and sits on the Memorial grounds.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/General_MacArthur_LightBox.jpg",
+                "id": 15,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/General_MacArthur_Map.jpg",
+                "location": "MacArthur Memorial",
+                "title": "General Douglas MacArhtur",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_general_macarthur.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28884255886078,
+                    36.847399217467924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Kyong Sung Kim",
+                "description": "The work is a large, cast bronze relief with mild steel or iron cross bars supports. The work is signed and dated. Research shows it is edition, a ‘copy’ of a work in South Korea. The donation was from the Republic of Korea (South Korea) Department of Defense to General MacArthur Memorial Building for the citizens of Norfolk. Transportation from Korea was courtesy of US military ship. The bronze sits on an exterior wall of a Memorial building, facing the street.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/MacArthur_plaque_LightBox.jpg",
+                "id": 16,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/MacArthur_plaque_Map.jpg",
+                "location": "MacArthur Memorial",
+                "title": "General Douglas MacArhtur Wading Ashore at Inchon",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_macarthur_at_inchon.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28917247056961,
+                    36.8471330635308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Siska Aurand Landscape Architects",
+                "description": "The work includes a 4-sided fountain in a tall, black granite obelisk surrounded by plantings on a raised traffic circle. On the NE corner of Brambleton and Church a plaza with seating, signage and dedicated parking offers visitors a place to reflect on the memorial.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/king_memorial_LightBox.jpg",
+                "id": 17,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/king_memorial_Map.jpg",
+                "location": "Intersection of Brambleton and Church",
+                "title": "Dr. Martin Luther King Memorial",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_martin_luther_king.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28028631210327,
+                    36.853205006263096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Unknown",
+                "description": "Three Revolutionary War Cannons with bronze information plaques. Inscription on bronze plaque with 1682 map reads: “Town Point is where Norfolk began, in 1860 the General Assembly of his Majesty’s Colony of Virginia enacted a law requiring each county to establish and develop a town site. In lower Norfolk County fifty acres of land at the entrance of the eastern branch of the Elizabeth River were purchased from Nicholas Wise, thus assuring the town of good water access to the surrounding areas. County surveyor John FerebEe, laid out Front Street (now Main Street) on high ground and the town was divided into half-acre sites for dwelling houses and warehouses. \r\n\r\nThe original town was almost completely surrounded by water. Access by land was limited to a single road which later became Church Street (now Lower St. Paul’s Boulevard). The town covered what is now the southern portion of downtown Norfolk. Bounded generally by the river on the south and west, City Hall Avenue on the north and Interstate 264 on the East. The Cannons displayed here were unearthed in 1982 from Otter Berth and Town Point Park. They are of Revolutionary War vintage and are of unknown origin. The carriages were constructed of white oak to 18th century specifications by members of the Norfolk Rotary Club.”",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Rev_War_Cannons_LightBox.jpg",
+                "id": 18,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Rev_War_Cannons_Map.jpg",
+                "location": "Town Point Park",
+                "title": "Revolutionary War Cannons",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_revolutionary_war_cannons.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29288464784622,
+                    36.84511756130534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Jim Cutler and Maggie Smith",
+                "description": "The work consists of a brick plaza on the water, backed by a knoll planted with artist-selected vegetation. The plaza holds a flagpole and benches. Nine cast bronze forms are scattered across the plaza, as if letters blown by the wind. The bronze pieces are etched with actual text of letters sent by soldiers from every major US conflict to loved-ones just before they died.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Armed_Forces_Memorial_Light.jpg",
+                "id": 19,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Armed_Forces_Memorial_Map.jpg",
+                "location": "Town Point Park",
+                "title": "Armed Forces Memorial",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_armed_forces_memorial.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29576534032822,
+                    36.84643547825072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Chaim Cross",
+                "description": "",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Tourist_LightBox.jpg",
+                "id": 20,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Tourist_Map.jpg",
+                "location": "Waterside Festival Market",
+                "title": "The Tourist",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_tourist.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2913504242897,
+                    36.843810354143386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Norfolk Rotary Club",
+                "description": "Town point is where norfolk began, in 1860 the general assembly of his majesty’s colony of virginia enacted a law requiring each county to establish and develop a town site. In lower norfolk county fifty acres of land at the entrance of the eastern branch of the elizabeth river were purchased from nicholas wise, thus assuring the town of good water access to the surrounding areas. County surveyor john ferebee, laid out front street (now main street) on high ground and the town was divided into half-acre sites for dwelling houses and warehouses. The original town was almost completely surrounded by water. Access by land was limited to a single road which later became church street (now lower st. Paul’s boulevard). The town covered what is now the southern portion of downtown norfolk. Bounded generally by the river on the south and west, city hall avenue on the north and interstate 264 on the east. The cannons displayed here were unearthed in 1982 from otter berth and Town Point Park. They are of revolutionary war vintage and are of unknown origin. The carriages were constructed of white oak to 18th century specifications by members of the Norfolk Rotary Club.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Norfolk_1682_War_LightBox.jpg",
+                "id": 21,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Norfolk_1682_Plaque_Map.jpg",
+                "location": "Town Point Park",
+                "title": "Norfolk 1682 Plaque",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_norfolk_1682.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29283100366592,
+                    36.8450939502083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "United States Navy",
+                "description": "The work is a surplus battleship anchor of unknown alloy. It sits directly on a paved asphalt walkway leading into Town Point Park. A small plaque identified the object as a naval relic.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Antietam_Anchor_LightBox.jpg",
+                "id": 22,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Antietam_Anchor_Map.jpg",
+                "location": "Town Point Park",
+                "title": "USS Antietam Anchor",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_antietam_anchor.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29422307014465,
+                    36.84650416385308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Stanley Bleifeld",
+                "description": "The work, a life-sized sailor with woman and child in cast bronze, sits on a polished concrete plinth. A short, granite-faced column dedicates the work to sailors and their families. The bronze is signed and a 2000 edition.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Homecoming_LightBox.jpg",
+                "id": 23,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Homecoming_Map.jpg",
+                "location": "Town Point Park",
+                "title": "Homecoming",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_homecoming.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.294284760952,
+                    36.84626805683646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Steve Farley",
+                "description": "WATERWORK is Norfolk’s first 1% for the art project. It is comprised of 24 large-scale photographic murals on glazed ceramic tiles depicting scenes of work and life on the Norfolk waterfront through time including an African-American baptism in the early 1900’s and the year the Elizabeth River froze over.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Waterwork_LightBox.jpg",
+                "id": 24,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Waterwork_web_Map.jpg",
+                "location": "Town Point Park",
+                "title": "Waterwork",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_waterwork.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29337012767792,
+                    36.84528069232196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David Joyce",
+                "description": "The series of 4 digital photos and 2 porcelain enamels consists of pointillist imagery comprised of hundreds of tiny digital photographs of Norfolk citizens. Artist David Joyce pioneered this technique of using the micro to make up the macro. He photographed area school students, taking two photos claiming the relaxed on the second shot. Norfolk Arts and Humanities Council commissioned the works from the artist.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/norfolk_now_LightBox.jpg",
+                "id": 25,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/norfolk_now_Map.jpg",
+                "location": "Selden Arcade",
+                "title": "Norfolk Now",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_norfolk_now.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29143357276917,
+                    36.846134978014895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Crys Warlitner",
+                "description": "Artist Crys Warlitner worked with 8 participants of the City’s 2009 Summer Earn and Learn program. The apprentice artists were lead through a process of collage with mixed media new and recycled materials. The final artwork was sealed with black, antique copper and varnish to create this 32’ long by 6’ tall festival mural conveying energy, excitement and community. This unique program was a partnership between Norfolk’s Parking Division, Public Art Program, and the Human Resource Department.  ",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Elizabeth_River_Festival_Li.jpg",
+                "id": 26,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Elizabeth_River_Festival_ma.jpg",
+                "location": "Waterside Parking Garage 50 Martin's Lane",
+                "title": "Elizabeth River Festival",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_elizabeth_river_festival.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29162669181824,
+                    36.84546528752632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "William Couper",
+                "description": "The work is cast bronze, life-sized winged angel, on one knee holding a judgment scroll. The bronze sits on a granite plinth bearing the Couper family name.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/recording_angel_LightBox.jpg",
+                "id": 27,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/recording_angel_Map.jpg",
+                "location": "Elmwood Cemetery",
+                "title": "Recording Angel",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_recording_angel.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28219604492188,
+                    36.86135597589871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "James A. Fuller, Norfolk’s first African-American councilman established the West Point section of the Elmwood Cemetery as a burial ground for Norfolk’s African-American citizens. The Civil War soldier depicted on the West Point Monument is Norfolk native Sergeant William H. Carney of the 54th Massachusetts Volunteer Regiment. Carney’s parents were born slaves, but secured their freedom and left Norfolk with their son for New Bedford, Massachusetts in 1855. Carney enlisted in the 54th Massachusetts in 1862 and fought with his regiment during the July 18, 1863 attack on Fort Wagner, South Carolina.\r\n\r\n When the color bearers were shot down I failed assault, Carney, despite being severely wounded, managed to save the U.S. flag from capture. “When they saw me bring in the colors,” Carney recollected, “they cheered me, and I was able to tell them that the old flag never touched the ground.” Carney was awarded the Medal of Honor for his extraordinary bravery under fire. He was the first of sixteen African American soldiers to receive the Medal of Honor during the Civil War. Sgt. Carney’s stone figure solemnly stands today as a tribute to the 100 African American veterans at rest in West Point Cemetery. This bronze sculpture sits atop a granite obelisk atop a concrete base with bronze plaques.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/William_Carney_LightBox.jpg",
+                "id": 28,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/William_Carney_Map.jpg",
+                "location": "Elmwood Cemetery / West Point Section",
+                "title": "Sergeant William Carney",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_sergeant_william_carney.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28112316131592,
+                    36.860360222113776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Athena Tacha",
+                "description": "This white concrete plaza was part of the US General Services Administration 1% for Public Art Program. The work is typical of the artist uses the idea of rhythm and movement becoming form.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Ripples_LightBox.jpg",
+                "id": 29,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Ripples_Map.jpg",
+                "location": "US Federal Building",
+                "title": "Ripples",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_ripples.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29115998744965,
+                    36.84813972153101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Bill Wagner",
+                "description": "The Flame of Liberty was commissioned on the 200th anniversary of the Independence of the United States. The churches and synagogues of Norfolk and Virginia Beach rededicated themselves to a vital faith in God as the source of our freedom. The flame is meant to inspire a continuing vigil for liberty.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Flame_Liberty_LightBox.jpg",
+                "id": 30,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Flame_Liberty_Map.jpg",
+                "location": "City Hall Plaza",
+                "title": "The Flame of Liberty",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_flame_liberty.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28510892391205,
+                    36.84551894883931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Victor Pickett",
+                "description": "This Police Memorial located in the City Hall plaza was a gift to the city from our friend John R. Burton who also donated the money for the Armed Forces Memorial at Town Point Park. After John F. Kennedy declared May 15th of each year as Peace Officers’ Day, Burton started placing a wreath to fallen officers agasinst the wall of City Hall. Later Burton announced a gift of $10,000 for a proper memorial. The memorial was dedicated on May 15, 1984. Police sources say it cost much more than this amount however Burton would never disclose how much. The memorial consists of a marker listing names of the 33 Norfolk officers killed in the line of duty since 1904. A large bell which hung in Norfolk’s first courthouse until 1976 hangs in the apex of a frame designed by Victor Pickett.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Memorial_Bell_LightBox.jpg",
+                "id": 31,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Memorial_Bell_Map.jpg",
+                "location": "City Hall Plaza",
+                "title": "Police Memorial Bell",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_police_memorial_bell.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28592431545258,
+                    36.8457614975043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Barbara Kobylinska",
+                "description": "Artist Barbara Kobylinska worked with 7 participants of the City’s 2009 Summer Earn and Learn program.  They created twelve colorful sculptural ceramic seagulls.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Flight_of_the_Seagulls_Ligh.jpg",
+                "id": 32,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Flight_of_the_Seagulls_map.jpg",
+                "location": "Town Point Parking Garage 110 W Main Street",
+                "title": "Flight of the Seagulls",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_flight_of_the_seagulls.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29294097423553,
+                    36.846658706232816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Bernar Venet",
+                "description": "Created by well-known French sculptor, Bernar Venet this monumental painted steel sits outside the World Trade Center in the heart of the financial district of Norfolk.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Ligne_Indeterminee_LightBox.jpg",
+                "id": 33,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Ligne_Indeterminee_Map.jpg",
+                "location": "World Trade Center",
+                "title": "Ligne Indeterminee",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_ligne_indeterminee.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2928256392479,
+                    36.84626376397486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Stanley Bleifeld",
+                "description": "he work is a life-sized sailor and duffel bag in cast bronze, edition and signed in 2001. The two elements sit separately on cast ferroconcrete plinths. The work is on a brick plaza surrounded by 10 plaques on granite bases. In October 2006 the Norfolk City Manager announced a partnership with the USS Norfolk personnel to care for the statue and volunteer at the Nauticus. The artist is a WWII veteran.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Lone_Sailor_LightBox.jpg",
+                "id": 34,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Lone_Sailor_Map.jpg",
+                "location": "Wisconsin Square",
+                "title": "Lone Sailor",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_lone_sailor.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2944832444191,
+                    36.8486484114708
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "United States Navy",
+                "description": "The work is a cast brass bell in a steel yoke, with the text “USS Norfolk’ in raised letters on the bell surface. The work is sited on the waterfront with views to the Navy ships.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/USS_Norfolk_Bell_LightBox.jpg",
+                "id": 35,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/USS_Norfolk_Bell_Map.jpg",
+                "location": "Wisconsin Square",
+                "title": "USS Norfolk Bell",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_uss_norfolk_bell.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29451006650925,
+                    36.84886519391871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Cast of Houdons",
+                "description": "The work is a painted plaster cast of the Houdon sculpture of General George Washington. A life sized, standing portrait, the work depicts the general holding a walking stick in one hand while the other rests on a tall column. The sculpture sits on a short wooden pedestal at the entry of the school. The children of Colonel Taylor presented the work to the school named for him. The original Houdon statue of Washington resides in the Smithsonian. The plaster cast was completed by P.P. Caproni and Brother, a reproductions firm located in Boston. Caprioti, the firm’s founder, obtained permission from the National Gallery to cast the original marble. \\ published a catalogue of cast works and marketed their services to libraries schools and institutions through a 1931 catalogue. Jean Antoine Houdon (1741 – 1828) was a French sculptor famous for his marbles of contemporary politicians carved from life. George Washington posed for the artist.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/george_washington_LightBox.jpg",
+                "id": 36,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/george_washington_Map.jpg",
+                "location": "W.H. Taylor Elementary School",
+                "title": "General George Washington",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_george_washington.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.30439400672913,
+                    36.86896962978572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Cassandra Akers with Earn and Learn Apprentice",
+                "description": "Artist Cassandra Akers worked with eight high school students as part of the City’s Earn and Learn internship program. The artists stenciled 617 fortunes on each parking space representing positive messages to bring awareness to the Norfolk Pagoda. Chinese motifs on each of the seven floors create a way finding directional device to remind parkers of where they parked. This unique program was a partnership between Norfolk’s Parking Division, Public Art Program, and the Human Resource Department.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Good_Fortune_Garage_LB.jpg",
+                "id": 37,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Good_Fortune_Garage_Map.jpg",
+                "location": "Freemason Street Garage",
+                "title": "Good Fortune Garage",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_good_fortune_garage.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29087567329407,
+                    36.8512862472124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Larry Bage with Earn and Learn Apprentice",
+                "description": "Artist Larry Bage worked with eight high school students as part of the City’s Earn and Learn internship program to create ten signs of businesses that were once part of Norfolk. The artists worked with recycled materials, metal and wood and installed the artwork on the down ramp helix. This unique program was a partnership between Norfolk’s Parking Division, Public Art Program, and the Human Resource Department.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Sign_ofthe_Times2_LightBox.jpg",
+                "id": 38,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Sign_ofthe_Times2_map.jpg",
+                "location": "Main Street Garage",
+                "title": "Sign of the Times Garage",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_sign_ofthe_times.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29075765609741,
+                    36.8464440639544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Diane Husson with Earn and Learn Apprentice",
+                "description": "Artist Diane Husson worked with eight high school students as part of the City’s Earn and Learn internship program to create three colorful relief ceramic tile murals that celebrate Norfolk’s nautical life. This unique program was a partnership between Norfolk’s Parking Division, Public Art Program, and the Human Resource Department.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Wind_and_Waves_LightBox.jpg",
+                "id": 39,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Wind_and_Waves_map.jpg",
+                "location": "Boush Street Garage",
+                "title": "Wind and Waves Garage",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_wind_and_waves_garage.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29263520240784,
+                    36.84829855335243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Matthew Gray Palmer",
+                "description": "Constructed of thousands of plasma cut aluminum butterflies, All Things Within All Things illustrates our interconnection with each other, from the largest terrestrial mammals to the most delicate wind-bound insects. Virginia Zoo, 3500 Granby Street.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/LightBox_Zoo_All_Things_Wit.jpg",
+                "id": 40,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/Map_Zoo_All_Things_Within_A.jpg",
+                "location": "Virginia Zoo",
+                "title": "All Things Within All Things",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_zoo_all_things.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.27678871154785,
+                    36.877080297784346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Laura Grant",
+                "description": "Laura was a resident artist in Lofoten, Norway. Laura’s solo exhibit at the Loyal Gallery in Mailmont, Sweden was titled Mutant Pop. She has also had numerous solo and group exhibitions in Italy, Canada, Denmark, Portugal, Germany, England and Norway to name a few. The York Street Garage theme is Canada Geese. Laura says, “Canada Geese are a symbol of transportation because of their natural instinctual migration patterns. Canada Geese fly in V shape flocks to help break wind which is a great metaphor of people using public transportation to help lighten the load of driving and carbon emissions.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/LightBox_Laura_Grant_yorkst.jpg",
+                "id": 41,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/map_Laura_Grant_yorkstgarag.jpg",
+                "location": "York Street Parking Garage",
+                "title": "Canada Geese",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_canada_geese_garage.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29034996032715,
+                    36.85314061915646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Jeannine Harkleroad",
+                "description": "Using a fabric appliqué technique, Jeannine assisted students with making four fabric panels. The fabric is a combination of clothing and fabric donated and/or purchased from Norfolk’s community and thrift stores. The panels depict and celebrate the following attractions of Norfolk: the Attucks Theatre, Doumar’s famous drive-in, Rowena’s gourmet foods and the scenic Ocean View Fishing Pier.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/LightBox_Jeannine_harkleroa.jpg",
+                "id": 42,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/map_Jeannine_harkleroad_plu.jpg",
+                "location": "Plume Street Parking Garage",
+                "title": "Norfolk Attractions",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_norfolk_attractions_garage.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2922677397728,
+                    36.84750224454971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Richard Ward",
+                "description": "Colorful mosaics and mirrors were inlaid in dryvit to create this bas-relief mural comprised of symbols of peace from cultures around the world.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/LightBox_RichardWard_Commer.jpg",
+                "id": 43,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/map_RichardWard_CommericalG.jpg",
+                "location": "Commercial Place Parking Garage",
+                "title": "Symbols of Peace",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_symbols_peace_garage.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28658413887024,
+                    36.84587740544421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Brian Zentz",
+                "description": "This colorful burst of energy is a bright ceiling medallion at the Pretlow library. It is a digital image printed on film and encapsulated in glass. Other artwork by Zentz at Pretlow: Explore! Elevator cab A Claws on Experience Reference Desk Technojelly Children’s Computersb Expand! Program Room A Number of Jellies Youth Collection",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/pretlow_sunburst_LBox.jpg",
+                "id": 44,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/map_pretlow_sunburst.jpg",
+                "location": "Pretlow Library",
+                "title": "Sunburst",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_sunburst.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2509536743164,
+                    36.952978390544594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anne Bousquet",
+                "description": "Using an analogy of birds migrating to depict the movement of books over the years from the original Norfolk Public Library main site to the various buildings and the new Slover Library down Plume Street.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/book_migration_LBox.jpg",
+                "id": 45,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/map_book_migration.jpg",
+                "location": "Plume Street and Atlantic Blvd",
+                "title": "Book Migration",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_book_migration.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.28988862037659,
+                    36.84669304894143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Madeline Weiner",
+                "description": "The sculpture is made from Adair dolomitic limestone and depicts a gathering of three figures—an older man, a young woman and a boy—as a story is being told. Sculpted benches tempt the onlooker to join in the experience.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/storyteller_LightBox.jpg",
+                "id": 46,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/storyteller_map.jpg",
+                "location": "Norview Community Center",
+                "title": "Storyteller",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_storyteller.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.24159812927246,
+                    36.89753766915939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Garth Edwards",
+                "description": "The work consists of a colored aluminum gateway and a large aluminum mural of an imaginary scene showing a fanciful world open to interpretation by the viewer. There is no particular story. The intention is that the images draw the attention of anyone looking for a few moments of amused interest.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/coleman_elementary_gate_LB.jpg",
+                "id": 47,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/coleman_elementary_gate_map.jpg",
+                "location": "Coleman Place Elementary School",
+                "title": "Enchanted Garden - Gate",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_enchanted_garden_gate.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.24142646789551,
+                    36.869596198853394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Garth Edwards",
+                "description": "The work consists of a colored aluminum gateway and a large aluminum mural of an imaginary scene showing a fanciful world open to interpretation by the viewer. There is no particular story. The intention is that the images draw the attention of anyone looking for a few moments of amused interest.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/coleman_elem_wallmural_LB.jpg",
+                "id": 48,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Downtown_Art/coleman_elem_wallmural_map.jpg",
+                "location": "Coleman Place Elementary School",
+                "title": "Enchanted Garden - Wall Mural",
+                "url": "http://www.norfolkva.gov/cultural_affairs/downtown_art_enchanted_garden_wall_mural.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.24121189117432,
+                    36.86945886908651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC. Each of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art. In 1963, Dunstan donated his six statues to the Norfolk Botanical Garden. Through the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works. Today the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Raphael_LightBox.jpg",
+                "id": 49,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Raphael_Map2.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Raphael",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_raphael.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20270878076553,
+                    36.90468015361784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC. Each of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art. In 1963, Dunstan donated his six statues to the Norfolk Botanical Garden. Through the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works. Today the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Canova_LightBox.jpg",
+                "id": 50,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Canova_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Canova",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_canova.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20245665311813,
+                    36.90433484167144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC. Each of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art. In 1963, Dunstan donated his six statues to the Norfolk Botanical Garden. Through the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works. Today the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/DaVinci_LightBox.jpg",
+                "id": 51,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/DaVinci_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "DaVinci",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_davinci.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20258808135986,
+                    36.90450857023733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Crawford_LightBox.jpg",
+                "id": 52,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Crawford_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Crawford",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_crawford.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20279729366302,
+                    36.90481313047233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n\r\n ",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Rubens_LightBox.jpg",
+                "id": 53,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Rubens_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Rubens",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_rubens.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2023976445198,
+                    36.90421044319604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Phidias_LightBox.jpg",
+                "id": 54,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Phidias_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Phidias",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_phidias.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20235204696655,
+                    36.904122506220396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Durer_LightBox.jpg",
+                "id": 55,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Durer_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Durer",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_durer.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20246201753616,
+                    36.90408604451783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Rembrandt_LightBox.jpg",
+                "id": 56,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Rembrandt_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Rembrandt",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_rembrandt.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2025237083435,
+                    36.904193284769725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Murillo_LightBox.jpg",
+                "id": 57,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Murillo_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Murillo",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_murillo.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20259881019592,
+                    36.904302669671395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Titian_LightBox.jpg",
+                "id": 58,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Titian_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Titian",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_titian.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20272219181061,
+                    36.904482832696985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Sir Moses Jacob Ezekiel",
+                "description": "These are eleven, 7–foot, marble sculptures executed by Sir Moses Jacob Ezekiel in Rome for the William Wilson Corcoran to fill the niches on the original Corcoran Gallery (currently known as the Renwick Building) in Washington, DC.\r\n\r\nEach of the 11 works is a carved marble statue of a great figure in the classical Western civilization art canon. In 1901 when the Corcoran moved to a larger building, the sculptures were put up for sale. The sculptures first became the property of Evelyn Walsh, a Washington, D.C. socialite who owned Friendship Estate. Walsh arranged the statues around her swimming pool. In 1949, the sculptures changed hands again, this time to an antique dealer in Richmond, Virginia. Next, Bruce Dunstan acquired six of the statues for his Richmond estate, Broadview. Four of the other statues were purchased by another Richmonder, Vincent Speranza. The remaining statue of Thomas Crawford became property of the Virginia Museum of Fine Art.\r\n\r\nIn 1963, Dunstan donated his six statues to the Norfolk Botanical Garden.\r\n\r\nThrough the efforts of Col. James Addison of Norfolk, a friend of Dunstan, the remaining statues were located and the owners persuaded to donate the works.\r\n\r\nToday the collection of all eleven sculptures can be seen in the 100 x 500 foot flowering Statuary Vista at the Norfolk Botanical Garden.\r\n",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Angelo_LightBox.jpg",
+                "id": 59,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Angelo_Map.jpg",
+                "location": "Statuary Vista - Norfolk Botanical Garden",
+                "title": "Angelo",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_angelo.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20284020900726,
+                    36.90465441613535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "In 1963, Bruce Dunstan of Richmond donated this four–foot, granite eagle with a wingspan of six feet, which was placed at the end of the Statuary Vista near Lake Wright.\r\n\r\nThe work is an unfinished carved granite bird with outstretched wings atop a rough cut granite base.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Eagle_and_Chicks_LightBox.jpg",
+                "id": 60,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Eagle_and_Chicks_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Eagle and Chicks",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_eagle_chicks.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2029555439949,
+                    36.90490964578607
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Unknown",
+                "description": "No Description",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Maidens_LightBox.jpg",
+                "id": 61,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Maidens_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Bronze Maidens",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_maidens.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2012067437172,
+                    36.90305653043056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "E. Mellon",
+                "description": "The work is a cast bronze of the saint, about half life sized.\n\n\nIt sits in lush vegetation and has a deep patina.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/St_Francis_LightBox.jpg",
+                "id": 62,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/St_Francis_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "St. Francis",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_stfrancis.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20146960020065,
+                    36.903238841228976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Amleto Cataldi",
+                "description": "The work is a carved marble rendition of the classic Madonna and child theme, slightly less than life-sized.\n\n\nCataldi is a very well known Italian sculptor, whose work is still featured in group shows across Europe.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Virgin_Child_LightBox.jpg",
+                "id": 63,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Virgin_Child_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Virgin and Child",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_vigin_child.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20116114616394,
+                    36.9040410035671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David Turner",
+                "description": "The work is a cast bronze with deep chemical patina to create naturalistic coloring.\r\n\r\nIt sports three brass rods, hammered to resemble reeds.\r\n\r\nA signed original, it is the only Turner in the Garden not created in an edition and not a work attributed to both father and son.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Hunters_Herons_LightBox.jpg",
+                "id": 64,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Hunters_Herons_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Hunters Herons",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_hunter_herons.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.19925141334534,
+                    36.90399596258975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "This is a series of four discrete statues of young women, each holding a stem of stalk of seasonal plant materials.\r\n\r\nEach statue is attached to a balustrade in the “wedding garden” of the Botanical Gardens.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Wheat_LightBox.jpg",
+                "id": 65,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Wheat_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Season Maid Wheat",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_seasonmaid_wheat.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20226621627808,
+                    36.90332248956719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "This is a series of four discrete statues of young women, each holding a stem of stalk of seasonal plant materials.\r\n\r\nEach statue is attached to a balustrade in the “wedding garden” of the Botanical Gardens.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Grape_LightBox.jpg",
+                "id": 66,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Grape_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Season Maid Grape",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_seasonmaid_grape.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20177805423737,
+                    36.903474772203836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "This is a series of four discrete statues of young women, each holding a stem of stalk of seasonal plant materials.\r\n\r\nEach statue is attached to a balustrade in the “wedding garden” of the Botanical Gardens.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Iris_LightBox.jpg",
+                "id": 67,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Iris_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Season Maid Iris",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_seasonmaid_iris.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20216429233551,
+                    36.903144468634764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anonymous",
+                "description": "This is a series of four discrete statues of young women, each holding a stem of stalk of seasonal plant materials.\r\n\r\nEach statue is attached to a balustrade in the “wedding garden” of the Botanical Gardens.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Thistle_LightBo.jpg",
+                "id": 68,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Season_Maid_Thistle_Map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Season Maid Thistle",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_seasonmaid_thistle.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20164930820465,
+                    36.903195944609706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_fish_LightBox.jpg",
+                "id": 69,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_fish_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Fish",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_fish.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20204895734787,
+                    36.90202271272335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_fish_LightBox.jpg",
+                "id": 70,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_fish_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Bird",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_bird.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2021455168724,
+                    36.902009843534984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_pelican_LightBox.jpg",
+                "id": 71,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_pelican_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Pelican",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_pelican.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2021991610527,
+                    36.90208491376979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_otter_LightBox.jpg",
+                "id": 72,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_otter_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Otter",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_otter.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20218575000763,
+                    36.902164273652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_eagle_LightBox.jpg",
+                "id": 73,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_eagle_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Eagle",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_eagle.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20212405920029,
+                    36.902254357742585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_ducks_LightBox.jpg",
+                "id": 74,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_ducks_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Ducks",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_ducks.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20204895734787,
+                    36.902166418512536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_frog_LightBox.jpg",
+                "id": 75,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_frog_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Frog",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_frog.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.2020194530487,
+                    36.902132100736715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "David and William Turner",
+                "description": "These works are editioned cast bronzed by the studio of David and William Turner.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_goose_LightBox.jpg",
+                "id": 76,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Botanical_Garden/Turner_goose_map.jpg",
+                "location": "Norfolk Botanical Garden",
+                "title": "Turner Goose",
+                "url": "http://www.norfolkva.gov/cultural_affairs/botanical_garden_art_turner_goose.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20203018188477,
+                    36.90228438574914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "artists": "Anna Hyatt Huntington",
+                "description": "Framed appropriately against the classical architecture of the Chrysler Museum of Art, the heroic Torch Bearers symbolizes the endurance of Enlightenment ideals and the effort required for their preservation. One of Anna Hyatt Huntington's most ambitious multi–figure works, The Torch Bearers's bravura, idealism, and towering scale are characteristic of her major public sculptures. Over almost seven decades of active production, Huntington's animal groups and equestrian monuments increasingly ran counter to developments in twentieth–century American art, but her remarkable early success and later marriage to a wealthy philanthropist and museum benefactor guaranteed her independence. Anna Vaughn Hyatt, the daughter of a Harvard paleontologist, held her first one–artist show in 1901, exhibiting fifty animal sculptures at the Boston Art Club. Two years later she moved to New York, where she studied with classically trained sculptors Hermon Atkins MacNeil, George Gray Barnard, and Gutzon Borglum; in 1904 she won a medal at the Louisiana Purchase Exposition in St. Louis. For the rest of her life, her sculpture–naturalistic animals and human figures, often in a classical context–was consistent with the aesthetics of the American Renaissance. By the early 1920s Hyatt had won awards and prestigious commissions on both sides of the Atlantic and was one of the highest–paid women in the United States. In 1923 she married the poet and philanthropist Archer M. Huntington; the results of their partnership are still visible on America's cultural landscape. One of their most impressive collaborations is the cultural center at Audubon Terrace in upper Manhattan, a complex of museums that Archer developed from 1908 to the 1930s. There, Anna's monuments to El Cid, Don Quixote, and other Spanish heroes (as well as several of her animal groups) are framed by the impeccable Beaux–Arts classicism of architects Stanford White and Cass Gilbert.\r\n\r\nThe first cast of The Torch Bearers was an April 1955 gift to the University of Madrid; Archer Huntington wrote a poem by the same title that was inscribed on its base. That was the couple\\\r\nOne year later, Anna offered another cast, then partially complete, to the city of Norfolk, to be installed in the plaza facing the Norfolk Museum of Arts and Sciences (now the Chrysler Museum of Art).\r\n\r\nFour other versions are in museum and university collections in the United States and Cuba. In her letter offering The Torch Bearers to Norfolk, Anna Hyatt Huntington cited her husband\\'s long affiliation with Hampton Roads. Archer\\'s father, Collis P. Huntington, founded the Newport News Shipbuilding and Drydock Company; a few miles away, Archer established the Mariners\\' Museum in 1930. In the large park surrounding the Mariners\\' Museum are more of Anna\\'s sculptures, including pairs of lions framing a dramatic view of the James River and another idealistic equestrian work, Conquering the Wild, ca. 1927.'s final collaboration, as he died in December.",
+                "fullimage": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_LightBox.jpg",
+                "id": 77,
+                "imageurl": "http://www.norfolkva.gov/cultural_affairs/images/Chrysler_Museum/Torch_Bearers_Map.jpg",
+                "location": "Chrysler Museum",
+                "title": "Torch Bearers",
+                "url": "http://www.norfolkva.gov/cultural_affairs/chrysler_museum_art_torch_bearers.asp"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.29367858171463,
+                    36.85602296216651
+                ]
+            }
+        }
+    ]
+}
+
