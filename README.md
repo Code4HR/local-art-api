@@ -1,10 +1,10 @@
-proxy-art
-=========
+local-art-api
+=============
 
-a proxy for Norfolk Public Art collection hosted by the City of Norfolk and parses the feed from xml to json and enables CORS
+The API iArtNorfolk uses, providing read and write access to Norfolk public art data on OpenStreetMap.
 
-data sources
-=======
+original data sources
+=====================
 * [Downtown] (http://www.norfolkva.gov/cultural_affairs/public_art_downtown.xml)
 * [Botanical Gardens] (http://www.norfolkva.gov/cultural_affairs/public_art_botanical_garden.xml)
 
@@ -15,7 +15,7 @@ Dependencies
 - Mongo
 
 ```bash
-git clone git@github.com/<YOURUSER>/proxy-art
+git clone git@github.com/<YOURUSER>/local-art-api
 npm install
 npm start
 # Navigate to http://localhost:5555
@@ -32,4 +32,5 @@ mongoimport --collection exhibits --file data/exhibits.json --jsonArray
 license
 =======
 
-[Apache 2.0] (https://www.apache.org/licenses/LICENSE-2.0)
+[Affero GPLv3] (https://www.gnu.org/licenses/agpl-3.0-standalone.html)
+
