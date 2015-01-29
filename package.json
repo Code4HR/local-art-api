@@ -1,22 +1,23 @@
 {
   "name": "local-art-api",
   "version": "0.0.1",
-  "description": "The API for Norfolk Art, written in hapi.",
+  "description": "The API for Norfolk Art, written in hAPI.",
   "license": "Affero GPL v.3",
   "keywords": [
     "art",
     "api",
+    "norfolk",
     "hapi"
   ],
   "author": "Code for Hampton Roads Volunteers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wbprice/local-art-api.git"
+    "url": "https://github.com/Code4HR/local-art-api.git"
   },
   "bugs": {
-    "url": "https://github.com/wbprice/local-art-api/issues"
+    "url": "https://github.com/Code4HR/local-art-api/issues"
   },
-  "homepage": "https://github.com/wbprice/local-art-api",
+  "homepage": "https://github.com/Code4HR/local-art-api",
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
@@ -30,7 +31,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "make test-cov"
+    "test": "make lint test-cov"
   },
   "main": "index.js",
   "devDependencies": {
