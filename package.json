@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "hapi": "^8.0.0",
+    "joi": "^5.1.0",
+    "lout": "^6.1.0",
     "query-overpass": "1.0.0",
     "underscore": "1.7.0"
   },
@@ -33,6 +35,7 @@
   "main": "index.js",
   "devDependencies": {
     "code": "^1.2.1",
+    "jshint": "^2.6.0",
     "lab": "^5.2.0"
   }
 }
