@@ -96,6 +96,17 @@ server.route({
                     imageurl: tags.website_1,
                     fullimage: tags.website,
                     description: tags.note
+                        + (function extendedDescription(tags) {
+                            var i = arguments.length > 1 ? 
+                                arguments[1] :
+                                1;
+                            return (function (element) {
+                                return tags.hasOwnProperty(element) ? 
+                                    tags[element] 
+                                        + extendedDescription(tags, i + 1) :
+                                    '';
+                            })('note_' + i.toString());
+                        })(tags)
                 });
             });
             reply({
