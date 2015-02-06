@@ -23,6 +23,7 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
+    "handlebars": "^2.0.0",
     "hapi": "^8.0.0",
     "joi": "^5.1.0",
     "lout": "^6.1.0",
@@ -37,6 +38,8 @@
   "devDependencies": {
     "code": "^1.2.1",
     "jshint": "^2.6.0",
-    "lab": "^5.2.0"
+    "lab": "^5.2.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^3.8.22"
   }
 }
