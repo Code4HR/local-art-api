@@ -1,3 +1,5 @@
+acceptance:
+	@node node_modules/cucumber/bin/cucumber.js -S
 test:
 	@node node_modules/lab/bin/lab
 test-cov:
@@ -7,4 +9,4 @@ test-cov-html:
 lint:
 	@node node_modules/jshint/bin/jshint ./*.js test/*.js
 
-.PHONY: test test-cov test-cov-html lint
+.PHONY: acceptance test test-cov test-cov-html lint
