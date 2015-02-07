@@ -1,0 +1,60 @@
+<html>
+<head>
+	<Title>LocalArt API</Title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css
+	">
+	<link rel="stylesheet" type="text/css" href="/templates/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+		
+	<div class="pure-g">
+
+		<header>
+			<div class="pure-u-1">
+				<h1>LocalArt API Documentation</h1>
+			</div>
+		</header>
+
+		<section id class="pure-u-1">
+			<h2>Get exhibits</h2>
+			<p>Returns an object containing all exhibits tagged in Norfolk, VA</p>
+			<table class="pure-table pure-table-bordered">
+				<tr>
+					<td>
+						URL
+					</td>
+					<td>
+						/exhibits
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Method
+					</td>
+					<td>
+						GET
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Options
+					</td>
+					<td>
+						<dl>
+							<dt>bbox</dt>
+							<dd><p>Limit search area with longitude and latitude ranges to make a bounding box. Follows the order: min Longitude, min Latitude, max Longitude, max Latitude.</p>
+							<em>/exhibits?bbox=36.75,-76.44,36.98,-76.13</em></dd>
+						</dl>
+					</td>
+				</tr>
+			</table>
+		</section>
+
+	</div>
+	
+</body>
+
+</html>
