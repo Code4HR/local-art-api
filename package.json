@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "make lint test-cov"
+    "test": "make lint acceptance test-cov"
   },
   "main": "index.js",
   "devDependencies": {
