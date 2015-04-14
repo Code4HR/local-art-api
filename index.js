@@ -91,18 +91,6 @@ server.route({
     handler: function(request, reply) {
         var bbox, longitude, latitude, numberOfResults, zoomLevel, query;
         
-        // Given a bounding box, return some results.
-        if (request.url.query.bbox) {
-            bbox = request.url.query.bbox;
-            query = '[out:json];node(' + bbox + ')[tourism=artwork];out;';
-        } else {
-            // If no bounding box is provided, assume Norfolk.
-            // tk do some response limiting here with query string in app
-            // or by getting long/lat from request source IP.
-            bbox = '36.75,-76.44,36.98,-76.13';
-            query = '[out:json];node(' + bbox + ')[tourism=artwork];out;';
-        }
-
         // Alternatively, use latitude and longitude.
         if (request.url.query.longitude &&
                 request.url.query.latitude &&
@@ -110,11 +98,20 @@ server.route({
             longitude = request.url.query.longitude;
             latitude = request.url.query.latitude;
             zoomLevel = request.url.query.zoomLevel;
-
-            // tk mathemagic happens here.
         }
 
-        queryOverpass(query, function(error, data) {
+        queryOverpass('[out:json];node(' + (
+                request.url.query.bbox ? 
+                    // Given a bounding box, return some results.
+                    request.url.query.bbox : 
+
+                    /*
+                        If no bounding box is provided, assume Norfolk.
+                        tk do some response limiting here with query string in
+                        app or by getting long/lat from request source IP.
+                    */
+                    '36.75,-76.44,36.98,-76.13')
+                + ')[tourism=artwork];out;', function(error, data) {
             var properties, tags, geometry;
             var formattedResponse = [];
 
