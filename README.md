@@ -1,7 +1,7 @@
 local-art-api
 =============
 
-The API LocalArt uses, providing read and write access to Norfolk public art data on OpenStreetMap.
+The API which the LocalArt demo uses, providing read and write access to Norfolk public art data on OpenStreetMap.
 
 In Action
 ==========
