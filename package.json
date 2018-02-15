@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "handlebars": "^2.0.0",
-    "hapi": "^8.0.0",
-    "joi": "^5.1.0",
+    "hapi": "^17.0.0",
+    "joi": "^13.0.0",
     "lout": "^6.1.0",
     "query-overpass": "1.0.0",
     "underscore": "1.7.0"
