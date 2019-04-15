@@ -23,10 +23,10 @@
     "npm": ">= 1.0.0"
   },
   "dependencies": {
-    "handlebars": "^2.0.0",
+    "handlebars": "^4.0.14",
     "hapi": "^17.0.0",
     "joi": "^13.0.0",
-    "lout": "^6.1.0",
+    "lout": "^7.1.0",
     "query-overpass": "1.0.0",
     "underscore": "1.7.0"
   },
